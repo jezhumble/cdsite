@@ -24,7 +24,7 @@ rescue LoadError
   abort "Please add \"gem 'go_script'\" to your Gemfile"
 end
 
-require 'guides_style_18f'
+require 'guides_style_cd'
 
 extend GoScript
 check_ruby_version '2.1.5'
@@ -32,11 +32,11 @@ check_ruby_version '2.1.5'
 command_group :dev, 'Development commands'
 
 def_command :update_nav, 'Update the \'navigation:\' data in _config.yml' do
-  GuidesStyle18F.update_navigation_configuration Dir.pwd
+  GuidesStyleCD.update_navigation_configuration Dir.pwd
 end
 
 def_command :update_theme, 'Update the guides_style_18f gem' do
-  GuidesStyle18F.update_theme
+  GuidesStyleCD.update_theme
 end
 
 def_command :update_gems, 'Update Ruby gems' do |gems|

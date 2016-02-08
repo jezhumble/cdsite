@@ -65,10 +65,6 @@ repos:
   description: Main repository
   url: https://github.com/18F/guides-template
 
-back_link:
-  url: "http://continuousdelivery.com/"
-  text: Continuous Delivery homepage
-
 google_analytics_ua: 
 
 collections:
