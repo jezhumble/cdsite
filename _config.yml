@@ -9,7 +9,7 @@ exclude:
 - go
 - vendor
 
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 highlighter: rouge
 incremental: true
 
