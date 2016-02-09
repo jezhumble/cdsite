@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Continuous Delivery: The Case of Apple'
+author:
+  display_name: jez
+  login: jez
+  email: jez@jezhumble.net
+  url: ''
+author_login: jez
+author_email: jez@jezhumble.net
+wordpress_id: 704
+wordpress_url: http://continuousdelivery.com/?p=704
+date: '2012-10-04 07:39:31 +0000'
+date_gmt: '2012-10-04 15:39:31 +0000'
+tags: []
+---
+<p><strong>Translations:</strong> <a href="http://www.continuousdelivery.info/index.php/2012/11/14/case_study_apple/">中文</a> | <a href="http://cdkr.egloos.com/1760742">한국말</a></p>
+<p>The case of Apple sometimes comes up in discussions around continuous delivery and the lean startup. For example, <a href="http://www.richarddurnall.com/">Richard Durnall</a> <a href="http://twitter.com/rdurnall/status/147149221403955200">described Apple's strategy</a> to me on Twitter as follows:</p>
+<blockquote><p>Brilliant and unwavering product vision from a few amazing folks going to market infrequently with huge ceremony.</p></blockquote>
+<p>That seems to be the exact opposite of what both lean startup and continuous delivery preach. It's hard to know what happens behind the scenes at Apple because of their notorious secrecy about their product development process. Furthermore, there's no way of knowing if the information we do have accurately represents what really goes on there. But if we look at Apple's history, there are a couple of examples that strongly suggest that the principles behind continuous delivery and the lean startup were very much in play in Apple's early years.</p>
+<p><a id="more"></a><a id="more-704"></a></p>
+<p>Exhibit A is the <a href="http://en.wikipedia.org/wiki/Apple_I">Apple I</a>. Created in Steve Wozniak's parents' garage, and sold without a keyboard, display, power transformers or even a case, it is - as <a href="http://twitter.com/ericries">Eric Ries</a> has <a href="http://www.wired.co.uk/magazine/archive/2012/07/features/the-upstart?page=all">pointed out</a> - a great example of a minimum viable product.</p>
+<p>[caption id="attachment_712" align="aligncenter" width="512"]<a href="http://www.flickr.com/photos/78147607@N00/281712899"><img src="http://continuousdelivery.com/wp-content/uploads/2012/08/640px-Apple_I_Computer.jpg" alt="Apple I on display at the Smithsonian, taken by Ed Uthman" title="640px-Apple_I_Computer" width="512" height="389" class="size-full wp-image-712" /></a> Apple I on display at the Smithsonian, taken by Ed Uthman[/caption]</p>
+<p>Exhibit B is <a href="http://www.folklore.org/StoryView.py?project=Macintosh&story=The_Macintosh_Spirit.txt">"The Macintosh Spirit"<a>, an entry from <a href="http://www.folklore.org">folklore.org</a> - the excellent compilation of stories from the creation of the original Macintosh, submitted by members of the team that built it.</p>
+<p>This entry - which describes "The attitudes and values of the team forged the spirit of the Macintosh" - is short and worth reading in full (as is the whole site if you have the time - it's available in <a href="http://www.amazon.com/dp/1449316247?tag=contindelive-20">book form</a> too). Here's a paragraph describing the Macintosh team's product development process (my italics):</p>
+<blockquote><p>
+Other groups at Apple had an elaborate formal product development process, mandating lengthy product requirement documents and engineering specifications before implementation commenced. In contrast, the Mac team favored a more creative, flexible, incremental approach of successively refining prototypes. Burrell Smith developed a unique hardware design style based on programmable array logic chips (PAL chips), which enabled him to make changes much faster than traditional techniques allowed, almost with the fluidity of software. Instead of arguing about new software ideas, we actually tried them out by writing quick prototypes, keeping the ideas that worked best and discarding the others (see <a href="http://www.folklore.org/StoryView.py?project=Macintosh&story=Busy_Being_Born.txt">Busy Being Born</a>). <em>We always had something running that represented our best thinking at the time.</em>
+</p></blockquote>
+<p>Given that we're talking about events that were happening 20 years ago, it's hard to improve on this as a description of how to do continuous delivery on an embedded system<sup><a href="#1">1</a></sup>. This example also resolves a common misconception -- just because you're "going to market infrequently with huge ceremony" doesn't mean you can't do continuous delivery (which is why I am careful to distinguish <a href="/2010/08/continuous-delivery-vs-continuous-deployment/">continuous delivery and continuous deployment</a>, and also to differentiate between the terms <a href="http://www.informit.com/articles/article.aspx?p=1833567&seqNum=2">"deployment" and "release"</a>). Rather, continuous delivery is one of the things that enables successful "high ceremony" launches: if you're doing it right, the high-risk technical work happens long before the product launch, which becomes purely a marketing event - in the case of the Macintosh, <a href="http://en.wikipedia.org/wiki/1984_(advertisement)">one of the most spectacular</a> in advertising history.</p>
+<p>[caption id="attachment_718" align="aligncenter" width="305"]<a href="http://continuousdelivery.com/wp-content/uploads/2012/08/Ad_apple_1984.jpg"><img src="http://continuousdelivery.com/wp-content/uploads/2012/08/Ad_apple_1984.jpg" alt="&#039;1984&#039; commercial for the launch of the Macintosh" title="&#039;1984&#039; commercial for the launch of the Macintosh" width="305" height="228" class="size-full wp-image-718" /></a> '1984' commercial for the launch of the Macintosh[/caption]</p>
+<hr />
+<a name="1">1</a> For a more up-to-date example, <a href="http://click.linksynergy.com/fs-bin/click?id=u1SWcCtRjd8&subid=&offerid=145238.1&type=10&tmpid=3559&RD_PARM1=http%253A%252F%252Fwww.informit.com%252Ftitle%252F0321821726">check out</a> how the HP LaserJet firmware team moved to a continuous delivery model, including checking in to trunk to do continuous integration, and performing automated functional testing using real logic boards to test the processing algorithms and timing.</a></p>

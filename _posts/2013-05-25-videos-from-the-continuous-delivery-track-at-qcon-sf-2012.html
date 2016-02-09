@@ -1,0 +1,42 @@
+---
+layout: post
+status: publish
+published: true
+title: Videos from the Continuous Delivery track at QCon SF 2012
+author:
+  display_name: jez
+  login: jez
+  email: jez@jezhumble.net
+  url: ''
+author_login: jez
+author_email: jez@jezhumble.net
+wordpress_id: 966
+wordpress_url: http://continuousdelivery.com/?p=966
+date: '2013-05-25 14:37:24 +0000'
+date_gmt: '2013-05-25 22:37:24 +0000'
+tags: []
+---
+<p>At last year's QCon San Francisco I got to curate a track on continuous delivery. One of the goals of the <a href="http://www.qconferences.com/">QCon conferences</a> is "information Robin Hood" - finding ways to get out into public the secret sauce of high performing organizations. So I set out to find talks that would answer the questions I frequently get asked: can continuous integration, automated testing, and trunk-based development scale? How does continuous delivery affect the way we do product management? What's the business case for continuous delivery? How do you grow a culture that enables it?</p>
+<p>You'll find the all these questions answered in the talks below, from the leaders who have been at the forefront of continuous delivery at Amazon, Facebook, Google and Etsy. They also discuss the tools they built and the and practices they use to enable continuous delivery. Finally, you get me talking about how you can adopt continuous delivery at your organization.</p>
+<p>Thanks so much to Jesse Robbins, Frank Harris, Nell Thomas, John Penix and Chuck Rossi for these great talks, and to the folks behind <a href="http://qconsf.com/">QCon SF</a> for an awesome conference.</p>
+<p><a id="more"></a><a id="more-966"></a></p>
+<h4><a href="http://www.infoq.com/presentations/Hacking-Culture">Changing Culture & Being a Force for Awesome</a></h4>
+<p><a href="http://twitter.com/jesserobbins">Jesse Robbins</a> ran ops at Amazon before quitting to co-found Opscode (creators of <a href="http://www.opscode.com/chef/">Chef</a>). He is also co-founder of <a href="velocityconf.com">Velocity</a>. In his copious spare time, he's a volunteer firefighter. Basically, Jesse is an enormous over-achiever. This is a fabulous - and hilarious - talk that discusses the hardest part of implementing continuous delivery: cultural change. This talk features my favourite devops aphorism:</p>
+<p><a href="http://www.infoq.com/presentations/Hacking-Culture"><img src="http://continuousdelivery.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-25-at-9.15.46-AM.png" alt="Don't fight stupid, make more awesome" width="400" class="alignleft size-full wp-image-967" /></a></p>
+<p><br clear="all"/></p>
+<h4><a href="http://www.infoq.com/presentations/Etsy-Deployment">Etsy's Product Development with Continuous Experimentation</a></h4>
+<p>One of the main goals of continuous delivery is to get fast feedback on your <a href="http://www.drdobbs.com/architecture-and-design/hypothesis-driven-development/229000656">hypotheses</a> so you can build the right thing. In this talk <a href="http://twitter.com/hirefrank">Frank Harris</a> and <a href="http://twitter.com/nellwyn">Nell Thomas</a> of <a href="http://codeascraft.com/">Etsy</a> show off a bunch of their tools, including the A/B testing framework they built for running experiments (which uses <a href="http://martinfowler.com/bliki/FeatureToggle.html">feature toggles</a> under the hood). They give an example of an experiment they're running right now, and discuss how the ability to gather and analyze data on customer behaviour in real time (see screenshot below) affects the way they do product development.</p>
+<p><a href="http://www.infoq.com/presentations/Etsy-Deployment"><img src="http://continuousdelivery.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-25-at-10.31.38-AM.png" alt="Etsy'ss A/B testing tool, Atlas" width="400" class="alignleft size-full wp-image-971" /></a></p>
+<p><br clear="all"/></p>
+<h4><a href="http://www.infoq.com/presentations/Continuous-Testing-Build-Cloud">Large Scale Continuous Testing in the Cloud</a></h4>
+<p>In this talk, <a href="http://research.google.com/pubs/author2207.html">John Penix</a> of Google shows off the awesome product he and his team built for continuous integration and cloud-based testing at Google. Teams at Google are free to choose their own development practices and toolchain, but this one has a pretty high uptake. When people ask me if trunk-based development and continuous integration can scale, I like to show them the following slide:</p>
+<p><a href="http://www.infoq.com/presentations/Continuous-Testing-Build-Cloud"><img src="http://continuousdelivery.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-25-at-11.15.03-AM.png" alt="CI at scale at Google" width="400" class="alignleft size-full wp-image-979" /></a></p>
+<p><br clear="all"/></p>
+<h4><a href="http://www.infoq.com/presentations/Facebook-Release-Process">The Facebook Release Process</a></h4>
+<p>In addition to discussing the process he uses to release twice a day, Facebook's lead release engineer <a href="http://twitter.com/chuckr">Chuck Rossi</a> shows off the extensive toolchain they built to deploy at scale. Highlights include Gatekeeper (screenshot below), which manages who gets to see which features as part of their dark launching process, and their deploy tool which categorizes all proposed patches based on the size of the patch, the amount of discussion around it, and the "push karma" of the committers. </p>
+<p><a href="http://www.infoq.com/presentations/Facebook-Release-Process"><img src="http://continuousdelivery.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-25-at-11.39.28-AM.png" alt="Gatekeeper" width="400" class="alignleft size-full wp-image-982" /></a></p>
+<p><br clear="all"/></p>
+<h4><a href="http://www.infoq.com/presentations/Adopting-Continuous-Delivery">Adopting Continuous Delivery</a></h4>
+<p>Amazon, Etsy, Google and Facebook are all primarily software development shops which command enormous amounts of resources. They are, to use <a href="https://twitter.com/BMC_DevOps">Christopher Little's</a> metaphor, unicorns. How can the rest of us adopt continuous delivery? That's the subject of my talk, which describes four case studies of organizations that adopted continuous delivery, with varying degrees of success.</p>
+<p>One of my favourites - partly because it's embedded software, not a website - is the story of HP's LaserJet Firmware team, who re-architected their software around the principles of continuous delivery. People always want to know the business case for continuous delivery: the FutureSmart team provide one in <a href="http://www.amazon.com/dp/0321821726?tag=contindelive-20">the book they wrote</a> that discusses how they did it:</p>
+<p><a href="http://continuousdelivery.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-25-at-11.51.39-AM.png"><img src="http://continuousdelivery.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-25-at-11.51.39-AM.png" alt="Economics of continuous delivery" width="400" class="alignleft size-full wp-image-984" /></a></p>

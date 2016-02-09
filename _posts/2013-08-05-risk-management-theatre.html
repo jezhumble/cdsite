@@ -1,0 +1,80 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Risk Management Theatre: On Show At An Organization Near You'
+author:
+  display_name: jez
+  login: jez
+  email: jez@jezhumble.net
+  url: ''
+author_login: jez
+author_email: jez@jezhumble.net
+wordpress_id: 1021
+wordpress_url: http://continuousdelivery.com/?p=1021
+date: '2013-08-05 08:19:33 +0000'
+date_gmt: '2013-08-05 16:19:33 +0000'
+tags: []
+---
+<p><strong>Translations:</strong> <a href="http://cdkr.egloos.com/1908527">한국말</a></p>
+<p>One of the concepts that will feature in the <a href="http://www.amazon.com/dp/1449368425?tag=contindelive-20">new book I am working on</a> is “risk management theatre”. This is the name I coined for the commonly-encountered control apparatus, imposed in a top-down way, which makes life painful for the innocent but can be circumvented by the guilty (the name comes by analogy with <a href="http://www.vanityfair.com/culture/features/2011/12/tsa-insanity-201112">security theatre</a>.) Risk management theatre is the outcome of optimizing processes for the case that somebody will do something stupid or bad, because (to quote <a href="http://www.amazon.com/dp/0470405163?tag=contindelive-20">Bjarte Bogsnes talking about management</a>), “there might be someone who who cannot be trusted. The strategy seems to be preventative control on everybody instead of damage control on those few.”</p>
+<p>Unfortunately risk management theatre is everywhere in large organizations, and reflects the continuing dominance of the <a href="http://en.wikipedia.org/wiki/Theory_X_and_Theory_Y">Theory X</a> management paradigm. The alternative to the top-down control approach is what I have called adaptive risk management, informed by human-centred management theories (for example the work of <a href="http://www.amazon.com/dp/0071808019?tag=contindelive-20">Ohno</a>, <a href="https://www.deming.org/theman/theories/fourteenpoints">Deming</a>, Drucker, <a href="http://www.forbes.com/sites/stevedenning/2013/06/28/the-financial-times-flubs-the-management-revolution/">Denning</a> and <a href="http://onedublin.org/2012/06/19/stanford-universitys-carol-dweck-on-the-growth-mindset-and-education/">Dweck</a>) and the study of how complex systems behave, particularly when they <a href="http://www.amazon.com/dp/1409422216?tag=contindelive-20">drift into failure</a>. Adaptive risk management is based on systems thinking, transparency, experimentation, and fast feedback loops.</p>
+<p><a id="more"></a><a id="more-1021"></a></p>
+<p>Here are some examples of the differences between the two approaches.</p>
+<table>
+<tr>
+<th><strong>Adaptive risk management</strong> (people work to detect problems through improving transparency and feedback, and solve them through improvisation and experimentation)</th>
+<th><strong>Risk management theatre</strong> (management imposes controls and processes which make life painful for the innocent but can be circumvented by the guilty)</th>
+</tr>
+<tr>
+<td><strong>Continuous code review</strong> in which engineers ask a colleague to look over their changes before check-in, technical leads review all check-ins made by their team, and code review tools allow people to comment on each others’ work once it is in trunk.</td>
+<td><strong>Mandatory code review</strong> enforced by check-in gates where a tool requires changes to be signed off by somebody else before they can be merged into trunk. This is inefficient and delays feedback on non-trivial regressions (including performance regressions).</td>
+</tr>
+<tr>
+<td><strong>Fast, automated unit and acceptance tests</strong> which inform engineers within minutes (for unit tests) or tens of minutes (for acceptance tests) if they have introduced a known regression into trunk, and which can be run on workstations before commit.</td>
+<td><strong>Manual testing</strong> as a precondition for integration, especially when performed by a different team or in a different location. Like mandatory code review, this delays feedback on the effect of the change on the system as a whole.</td>
+</tr>
+<tr>
+<td><strong>A <a href="http://www.informit.com/articles/article.aspx?p=1621865">deployment pipeline</a></strong> which provides complete traceability of all changes from check-in to release, and which detects and rejects risky changes automatically through a combination of automated tests and manual validations.</td>
+<td><strong>A comprehensive documentation trail</strong> so that in the event of a failure we can discover the human error that is the root cause of failures in the mechanistic, Cartesian paradigm that applies in the domain of <a href="http://en.wikipedia.org/wiki/Cynefin">systems that are not complex</a>.</td>
+</tr>
+<tr>
+<td><strong>Situational awareness</strong> created through tools which make it easy to monitor, analyze and correlate relevant data. This includes process, business and systems level metrics as well as the discussion threads around events.</td>
+<td><strong>Segregation of duties</strong> which acts as a barrier to knowledge sharing, feedback and collaboration, and reduces the situational awareness which is essential to an effective response in the event of an incident.</td>
+</tr>
+</table>
+<p>It’s important to emphasize that there are circumstances in which the countermeasures on the right are appropriate. If your delivery and operational processes are chaotic and undisciplined, imposing controls can be an effective way to improve - so long as we understand they are a temporary countermeasure rather than an end in themselves, and provided they are applied with the consent of the people who must work within them.</p>
+<p>Here are some differences between the two approaches in the field of IT:</p>
+<table>
+<tr>
+<th>Adaptive risk management (people work to detect problems through improving transparency and feedback, and solve them through improvisation and experimentation)</th>
+<th>Risk management theatre (management imposes controls and processes which make life painful for the innocent but can be circumvented by the guilty)</th>
+</tr>
+<tr>
+<td><strong>Principle-based and dynamic:</strong> principles can be applied to situations that were not envisaged when the principles were created.</td>
+<td><strong>Rule-based and static</strong>: when we encounter new technologies and processes (for example, cloud computing) we need to rewrite the rules.</td>
+</tr>
+<tr>
+<td><strong>Uses transparency to prevent accidents and bad behaviour.</strong> When it’s easy for anybody to see what anybody else is doing, people are more careful. As Louis Brandeis said, “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.”</td>
+<td><strong>Uses controls to prevent accidents and bad behaviour.</strong> This approach is the default for legislators as a way to prove they have taken action in response to a disaster. But controls limit our ability to adapt quickly to unexpected problems. This introduces a new class of risks, for example over-reliance on emergency change processes because the standard change process is too slow and bureaucratic.</td>
+</tr>
+<tr>
+<td><strong>Accepts that systems drift into failure.</strong> Our systems and the environment are constantly changing, and there will never be sufficient information to make globally rational decisions. Humans solve our problems and we must rely on them to make judgement calls.</td>
+<td><strong>Assumes humans are the problem.</strong> If people always follow the processes correctly, nothing bad can happen. Controls are put in place to manage “bad apples”. Ignores the fact that process specifications always require interpretation and adaptation in reality.</td>
+</tr>
+<tr>
+<td><strong>Rewards people for collaboration, experimentation, and system-level improvements.</strong> People collaborate to improve system-level metrics such as lead time and time to restore service. No rewards for “productivity” on individual or function level. Accepts that locally rational decisions can lead to system level failures.</td>
+<td><strong>Rewards people based on personal “productivity” and local optimization</strong>. For example operations people optimizing for stability at the expense of throughput, or developers optimizing for velocity at the expense of quality (even though these are false dichotomies.)</td>
+</tr>
+<tr>
+<td><strong>Creates a culture of continuous learning and experimentation</strong>: People openly discuss mistakes to learn from them and conduct <a href="http://codeascraft.com/2012/05/22/blameless-postmortems/">blameless post-mortems</a> after outages or customer service problems with the goal of improving the system. People are encouraged to try things out and experiment (with the expectations that many hypotheses will be invalidated) in order to get better.</td>
+<td><strong>Creates a culture of fear and mistrust</strong>. Encourages finger pointing and lack of ownership for errors, omissions and failure to get things done. As in: If I don't do anything unless someone tells me to, I won't be held responsible for any resulting failure.</td>
+</tr>
+<tr>
+<td><strong>Failures are a learning opportunity</strong>. They occur in controlled circumstances, their effects are appropriately mitigated, and they are encouraged as an opportunity to learn how to improve.</td>
+<td><strong>Failures are caused by human error</strong> (usually a failure to follow some process correctly), and the primary response is to find the person responsible and punish them, and then use further controls and processes as the main strategy to prevent future problems.</td>
+</tr>
+</table>
+<p>Risk management theatre is not just painful and a barrier to the adoption of continuous delivery (and indeed to continuous improvement in general). It is actually dangerous, primarily because it creates a culture of fear and mistrust. As Bogsnes says, “if the entire management model reeks of mistrust and control mechanisms against unwanted behavior, the result might actually be more, not less, of what we try to prevent. The more people are treated as criminals, the more we risk that they will behave as such.”</p>
+<p>This kind of organizational culture is a major factor whenever we see people who are scared of losing their jobs, or engage in activities designed to protect themselves in the case that something goes wrong, or attempt to make themselves indispensable through hoarding information.</p>
+<p>I’m certainly not suggesting that controls, IT governance frameworks, and oversight are bad in and of themselves. Indeed, applied correctly, they are essential for effective risk management. ITIL for example allows for a <a href="http://continuousdelivery.com/2010/11/continuous-delivery-and-itil-change-management/">lightweight change management</a> process that is completely compatible with an adaptive approach to risk management. What’s decisive is how these framework are implemented. The way such frameworks are used and applied is determined by&mdash;and perpetuates&mdash;<a href="http://www.infoq.com/minibooks/agile-adoption-transformation">organizational culture</a>.</p>

@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: Continuous Delivery vs Continuous Deployment
+author:
+  display_name: jez
+  login: jez
+  email: jez@jezhumble.net
+  url: ''
+author_login: jez
+author_email: jez@jezhumble.net
+wordpress_id: 138
+wordpress_url: http://continuousdelivery.com/?p=138
+date: '2010-08-13 15:54:07 +0000'
+date_gmt: '2010-08-13 23:54:07 +0000'
+tags: []
+---
+<p><strong>Translations: </strong><a href="http://cdkr.egloos.com/1556409">한국말</a></p>
+<p>Timothy Fitz's <a href="http://timothyfitz.wordpress.com/2009/02/08/continuous-deployment/">blog entry</a> on continuous deployment came out over a year before Dave and I published our book on continuous delivery. So why did we choose a different name? Is there actually a difference or are we just being bloody-minded?</p>
+<p>We decided to call the book <em>Continuous Delivery</em> for a few reasons. First of all, there's the somewhat pedantic fact that deployment does not imply release. As we say in the book, you can continuously deploy to UAT - no big deal. What makes continuous deployment special is deploying every change that passes the automated tests (and optionally a short QA gate) <em>to production</em>. Continuous deployment is the practice of releasing every good build to users - a more accurate name might have been "continuous release".</p>
+<p>While continuous deployment implies continuous delivery the converse is not true. Continuous delivery is about putting the release schedule in the hands of the business, not in the hands of IT. Implementing continuous delivery means making sure your software is always production ready throughout its entire lifecycle - that any build could <em>potentially</em> be released to users at the touch of a button using a fully automated process in a matter of seconds or minutes.</p>
+<p><a id="more"></a><a id="more-138"></a></p>
+<p>This in turn relies on comprehensive automation of the build, test and deployment process, and excellent collaboration between everyone involved in delivery - developers, testers, DBAs, systems administrators, users, and the business.</p>
+<p>In the world of continuous delivery, developers aren't done with a feature when they hand some code over to testers, or when the feature is "QA passed". They are done when it is working in production. That means no more testing or deployment phases, even within a sprint (if you're using Scrum). If you're using Kanban and you want to do continuous delivery, you can't bring a new story into play until the one you're working on is released to users.</p>
+<p>However it doesn't always make sense to release every good build to users. In particular, this is usually impossible for embedded products when there is coupling between a software change and a hardware change. In the world of COTS, there are good marketing and support reasons why you'd not want to have more than a few "released" versions of your software in play at any given time (although you could still do regular "developer" or "early access" builds as Eclipse and the Omni Group do). There are probably other good reasons too - the important point is that they must be <em>business</em> reasons.</p>
+<p>So when can you say you're doing continuous delivery? I'd say it's when you could flip a switch to go to continuous deployment if you decided that was the best way to deliver value to your customers. In particular, if you can't release every good build to users, what does it mean to be "done" with a story? I think at least the following conditions must apply:</p>
+<ul>
+<li>You have run your entire test suite against the build containing the story. This validates that the story is delivering the expected business value, and that no regressions have been introduced in the process of developing it. In order to be efficient, that means having comprehensive automated tests at the unit, component and acceptance level.</li>
+<li>The story has been demonstrated to customers from a production-like environment. Production-like means identical with production, within the bounds of reason. Even if you're deploying to an enormous cluster, you can use a technique like <a href="http://martinfowler.com/bliki/BlueGreenDeployment.html">blue-green deployments</a> to run a different version of your app in parallel on the production environment without affecting users.</li>
+<li>There are no obstacles to deploying to production. In other words, you could deploy the build to users using a fully automated process at the push of a button if you decided to. In particular, that means you've also tested it fulfills its cross-functional characteristics such as capacity, availability and security. If you're using an SOA or you have dependencies between your application and other systems, it means ensuring there are no integration problems.</li>
+</ul>

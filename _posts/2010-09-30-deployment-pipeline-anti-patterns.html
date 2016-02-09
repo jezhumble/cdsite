@@ -1,0 +1,52 @@
+---
+layout: post
+status: publish
+published: true
+title: Deployment pipeline anti-patterns
+author:
+  display_name: jez
+  login: jez
+  email: jez@jezhumble.net
+  url: ''
+author_login: jez
+author_email: jez@jezhumble.net
+wordpress_id: 116
+wordpress_url: http://continuousdelivery.com/?p=116
+date: '2010-09-30 08:27:21 +0000'
+date_gmt: '2010-09-30 16:27:21 +0000'
+tags: []
+---
+<p>I was visiting a prospect a few weeks ago when I was delighted to run in to <a href="http://www.MindflowSolutions.net/">Kingsley Hendrickse</a>, a former colleague at ThoughtWorks who left to study martial arts in China. He's now back in London working as a tester. We were discussing the deployment pipeline pattern, which he somewhat sheepishly informed me he wasn't a fan of. Of course I took the scientific view that there couldn't possibly be anything wrong with the theory, and that the problem must be with the implementation.</p>
+<p>Kingsley's problem was that his team had implemented a deployment pipeline such that it was only possible to self-service a new build into his exploratory testing environment once the acceptance tests had been run against it. This typically took an hour or two. So when he found a bug and it was fixed by a developer, he had to wait ages before he could deploy the build with the fix into his testing environment to check it.</p>
+<p>This problem results from a combination of two anti-patterns that are common when creating a deployment pipeline: insufficient parallelization, and over-constraining your pipeline workflow.</p>
+<p><a id="more"></a><a id="more-116"></a></p>
+<h2>Insufficient parallelization</h2>
+<p>The deployment pipeline can be broadly separated into two parts - the automated part and the manual part. The automated part consists of the automated tests that get run against every commit, which prove (assuming the tests are good enough) that the application is production-ready. In an ideal world with lots of processing power (and near-zero power consumption) this part of the pipeline would consist of a single stage that built the system and executed all these tests in parallel.</p>
+<p>However if you have a reasonably sized app with good test coverage, running all the tests (including acceptance tests) on a single box will take over a day. Even with a build grid and parallelization, you're unlikely to get it down to a few minutes, which is an acceptable length of time for the development team to get feedback on their changes. Thus the pipeline gets split into two stages - a commit stage and an acceptance stage.</p>
+<p>The commit stage contains mainly unit tests and gives you a high level of confidence you haven't introduced any regressions with your latest change. It runs in a few minutes (ten is the absolute maximum). The commit stage also runs any analysis tools for producing internal code quality reports (e.g. test coverage and cyclomatic complexity), and produces an environment-independent packaged version of your application that is used for all later stages of the pipeline (including release). The acceptance stage contains all the rest of the automated tests and usually takes longer - an hour or two.</p>
+<p>Both of these stages should be parallelized so they execute as fast as possible. For example it is usually possible to have the commit stage run across several boxes: one to build packages, one to do analysis, and a few to run the commit tests. Similarly, you can run acceptance tests in parallel - on the <a href="http://studios.thoughtworks.com/mingle">Mingle project</a>, at the time of writing, they have 3,282 end-to-end acceptance tests that run across 53 boxes. The whole stage takes just over an hour to run<sup><a href="#1">1</a></sup>.</p>
+<p>The heuristic is:</p>
+<ul>
+<li>Make your pipeline wide, not long: reduce the number of stages as much as possible, and parallelize each stage as much as you can.</li>
+<li>Create more stages if necessary to optimize feedback.</li>
+</ul>
+<h2>Inflexible workflow</h2>
+<p>Even if Kingsley's team had followed the pattern above and aggressively parallelized their tests, it's possible they might not have got the lead time from check-in to availability to deploy to manual testing down sufficiently. But they also made another mistake. They only allowed a build to be deployed to manual testing after the acceptance test stage had passed. Presumably this was to prevent manual testers from wasting their time on builds that weren't known to be good.</p>
+<p>Some of the time, this is reasonable. However, often it isn't - and the tester will know whether or not they want to see the acceptance tests pass, so he or she should get to choose whether or not to wait.</p>
+<p>When people design pipelines, they are usually deciding in their head what the 'ideal' process should look like, and often they think linearly. The result might look something like figure 1, a linear obstacle course that builds must overcome to prove their fitness for release.</p>
+<p>[caption id="attachment_220" align="alignnone" width="550" caption="Figure 1: Linear pipeline"]<a href="http://continuousdelivery.com/wp-content/uploads/2010/09/linear_pipeline.png"><img class="size-full wp-image-220" title="Figure 1" src="http://continuousdelivery.com/wp-content/uploads/2010/09/linear_pipeline.png" alt="" width="550" /></a>[/caption]</p>
+<p>However the problem with this design is that it prevents teams from optimizing their process. For example, this design makes it difficult to manage emergencies. If you need to push a fix out quickly, you might re-organize your team on the fly, parallelizing tasks that might normally be performed in series, such as testing capacity and performing exploratory testing. This is impossible with the pipeline design above.</p>
+<p>So the same rule applies - the pipeline should fan out as soon as it makes sense to do so. In the case of exploratory testing environments, all builds that pass the commit tests should be available. In the case of staging and production environments, all builds that pass both commit and acceptance tests. Arguably - unless you're using the <a href="http://martinfowler.com/bliki/BlueGreenDeployment.html">blue-green deployments pattern</a> in which staging becomes production - builds should pass through staging before they can be deployed to production. But if you have comprehensive end-to-end acceptance tests that are run in a production-like environment, you might allow builds to be deployed directly to production.</p>
+<p>[caption id="attachment_226" align="alignnone" width="445" caption="Figure 2: Optimized pipeline"]<a href="http://continuousdelivery.com/wp-content/uploads/2010/09/optimized_pipeline.png"><img class="size-full wp-image-226" title="optimized_pipeline" src="http://continuousdelivery.com/wp-content/uploads/2010/09/optimized_pipeline.png" alt="" width="445" height="293" /></a>[/caption]</p>
+<p>Of course all deployments can be made subject to approvals. The important thing is not to conflate your workflow with your approval process by <em>requiring</em> builds to go through multiple different stages serially. Instead, make it easy for the people doing the approval to see which parts of the delivery process each build has been through, and what the results were, so they have the information they need to make decisions - such as which build to deploy, or whether a particular build should be deployed - at their fingertips.</p>
+<p>[caption id="attachment_229" align="alignnone" width="550" caption="Go showing which environments a build has been deployed to"]<a href="http://continuousdelivery.com/wp-content/uploads/2010/09/Screen-shot-2010-09-30-at-1.09.04-PM.png"><img class="size-full wp-image-229" title="Go" src="http://continuousdelivery.com/wp-content/uploads/2010/09/Screen-shot-2010-09-30-at-1.09.04-PM.png" alt="" width="550" /></a>[/caption]</p>
+<p>There are cases where the arrangement shown in Figure 2 is not sufficiently linear - for example, when integrating several applications and then promoting them through staging and live in a deployment train. However in general the heuristic is:</p>
+<ul>
+<li>Make your pipeline wide, not long: allow for resources to be redistributed so manual work can be performed in parallel if required.</li>
+<li>Prefer visibility to locking down: give people the information they need to make informed decisions, rather than constraining them.</li>
+</ul>
+<h2>Conclusion</h2>
+<p>As part of your practice of continuous improvement, evolve your deployment pipeline to enable teams to become more efficient. In general, aim to make pipelines as wide and short as possible through aggressive parallelization, and by avoiding chaining deployments so that builds must pass through multiple stages before they become available for release. Rather, make it easy for the person performing the deployment to judge what can - and should - be deployed.</p>
+<p>And of course follow the Deming cycle: measure the average cycle time for builds to pass through the pipeline, and the lead times to each environment, to judge the effect each change you make has on the efficiency of your delivery process, and continue to optimise accordingly.</p>
+<hr/>
+<a name="1"><sup>1</sup></a> My colleagues created an open source project called <a href="http://github.com/janmejay/tlb">TLB</a> which you can use to run your tests in parallel across multiple boxes.</p>

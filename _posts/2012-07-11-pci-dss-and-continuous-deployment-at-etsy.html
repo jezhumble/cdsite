@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: PCI-DSS and continuous deployment at Etsy
+author:
+  display_name: jez
+  login: jez
+  email: jez@jezhumble.net
+  url: ''
+author_login: jez
+author_email: jez@jezhumble.net
+wordpress_id: 623
+wordpress_url: http://continuousdelivery.com/?p=623
+date: '2012-07-11 09:39:01 +0000'
+date_gmt: '2012-07-11 17:39:01 +0000'
+tags: []
+---
+<p>At DevOpsDays Mountain View I was lucky enough to get some time with <a href="http://twitter.com/mrembetsy">Michael Rembetsy</a>, Director of Operations Engineering at <a href="http://www.etsy.com/">Etsy</a>, which manages to be <a href="https://www.pcisecuritystandards.org/documents/pci_dss_v2.pdf">PCI-DSS compliant</a> while practicing continuous deployment. In this short interview, he describes how they do it.</p>
+<p><iframe width="420" height="315" src="http://www.youtube.com/embed/nrDH5MVwVN4" frameborder="0" allowfullscreen></iframe></p>
+<p>Here are some of the key points from the interview:</p>
+<ul>
+<li>Etsy deploy to production 25-50 times a day;</li>
+<li>They built a new, segmented PCI-DSS compliant environment for their payment systems - "we built a whole separate Etsy, essentially";</li>
+<li>Segregation of duties doesn't mean people can't talk to each other. In fact, collaboration is an essential element of effective risk management. So everybody in the PCI environment still follows devops principles - there's no physical separation of the teams, and Etsy have hired more people into the various roles (dev, sysadmin, dba, manager, networking) to facilitate collaboration;</li>
+<li>In the payments environment they "still have to follow the rules: a developer still doesn't have access to a production database", but they'll have dbas working alongside them who they can ask for help, and graphs showing metrics from the database;</li>
+<li>They use a similar deployment process in their PCI environment to their non-PCI environment, but it includes much more logging on who did what when, and they have roles for QA pusher and production pusher;</li>
+<li>Developers can run most of the test framework in their PCI development environment, and they have access to production logs via Splunk in read only mode;</li>
+<li>They have a ticketing system that all changes have to go through, but they can push out a change from dev to production in less than an hour if necessary with their normal, non-emergency change management process;</li>
+<li>Final words of advice: "Make sure that the team is on board and realizes that yes, there's going to be some constraints, but ... if you all work together you're going to be able to continuously deliver the product that you want even into a secure environment."</li>
+</ul>

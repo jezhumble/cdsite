@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: On Antifragility in Systems and Organizational Architecture
+author:
+  display_name: jez
+  login: jez
+  email: jez@jezhumble.net
+  url: ''
+author_login: jez
+author_email: jez@jezhumble.net
+wordpress_id: 901
+wordpress_url: http://continuousdelivery.com/?p=901
+date: '2013-01-09 14:29:25 +0000'
+date_gmt: '2013-01-09 22:29:25 +0000'
+tags: []
+---
+<p>In his new book, <a href="http://www.amazon.com/dp/1400067820?tag=contindelive-20">Antifragile</a>, Nassim Taleb discusses the behaviour of complex systems and distinguishes three kinds: those that are fragile, those that are robust or resilient, and those that are antifragile. These types of systems differ in how they respond to volatility: “The fragile wants tranquility, the antifragile grows from disorder, and the robust doesn’t care too much.” (p20) Taleb argues that we want to create systems that are antifragile - that are designed to take advantage of volatility. I think this concept is incredibly powerful when applied to systems and organizational architecture.</p>
+<p><a id="more"></a><a id="more-901"></a></p>
+<h3>Why Continuous Delivery Works</h3>
+<p>Taleb shows why the traditional approach of operations - making change hard, since change is risky - is flawed: “the problem with artificially suppressed volatility is not just that the system tends to become extremely fragile; it is that, at the same time, it exhibits no <em>visible</em> risks... These artificially constrained systems become prone to Black Swans. Such environments eventually experience massive blowups... catching everyone off guard and undoing years of stability or, in almost all cases, ending up far worse than they were in their initial volatile state” (p105)<sup><a href="#1">1</a></sup>.</p>
+<p>This a great explanation of how many attempts to manage risk actually result in <a href="http://continuousdelivery.com/2013/08/risk-management-theatre/">risk management theatre</a> - giving the appearance of effective risk management while actually making the system (and the organization) extremely fragile to unexpected events. It also explains why <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">continuous delivery</a> works. The most important heuristic we describe in the book is “if it hurts, do it more often, and bring the pain forward.” The effect of following this principle is to exert a constant stress on your delivery and deployment process to reduce its fragility so that releasing becomes a boring, low-risk activity.</p>
+<h3>Antifragile Systems</h3>
+<p>Another of Taleb’s key claims is that it is impossible to predict “Black Swan” events: “you cannot say with any reliability that a certain remote event or shock is more likely than another... but you can state with a lot more confidence that an object or a structure is more fragile than another should a certain event happen.” (p8). Thus we need “to switch the blame from the inability to see an event coming... to the failure to understand (anti)fragility, namely, ‘why did we build something so fragile to these types of events?’” (p136).</p>
+<p>Unlike risk, fragility is actually measurable. How do we measure the fragility of the systems we build? We try to break them, using techniques such as <a href="http://queue.acm.org/detail.cfm?id=2371297">game days</a> and systems like <a href="http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html">chaos monkey</a>. The systematic application of stress to your systems is essential - not just to ensure your systems are antifragile, but to develop the muscles of the people who create and maintain them through constant practice. After all, it’s the combination of the system and the people who build and run it that has the quality of antifragility.</p>
+<p>In this context, an important quality of legacy systems is their fragility. Legacy systems that aren’t touched for a long time will turn into fragile “works of art”: changing them is considered risky, the number of people who understand the system decreases with time, and their knowledge atrophies from lack of exercise.</p>
+<p>How do we create antifragile systems? Apply stress to them continuously so we are forced to simplify, homogenise, and automate. </p>
+<h3>Antifragile Organizations</h3>
+<p>We can measure the fragility of an organization by how long it takes before it liquidates its assets. Deloitte’s <em>Shift Index</em> shows that the average life expectancy of a Fortune 500 company has declined from around 75 years half a century ago to less than 15 years today.</p>
+<p>Start-ups are notoriously fragile. But the ones that survive and grow turn into something potentially more dangerous - robust organizations. The problem with robust organizations is that they resist change. They aren’t quickly killed by changes to their environment, but they don’t adapt to them either - they die slowly. We see this effect all the time - changing the culture of an established organization is incredibly hard.</p>
+<p>Antifragile organizations are those that have a culture that enables them to learn fast from their environment and adapt to it so they can take advantage of volatility. Here are some characteristics of antifragile organizations:</p>
+<ul>
+<li><strong>Systems thinking.</strong> Everybody in the organization knows the goals of the organization and makes sure their work is directly contributing towards these goals.</li>
+<li><strong>Theory Y Management.</strong> Management needs to assume employees are self-motivated and will be able to learn how to solve problems themselves. Organizations need to make sure they hire antifragile people who will thrive in this environment. As Daniel Pink’s <a href="http://www.amazon.com/dp/1594484805?tag=contindelive-20">Drive</a> points out, giving your employees autonomy, purpose, and the opportunity to learn and master new skills is what stops them from quitting, thus increasing the antifragility of your organization.</li>
+<li><strong>Continuous experimentation.</strong> As described in <a href="http://www.amazon.com/dp/0071635238?tag=contindelive-20">Toyota Kata</a>, good management knows that the best solutions come from the workers. They create an environment in which practitioners are able to run experiments to learn as rapidly as possible. The feedback loops in command and control organizations are too slow for them to adapt effectively.</li>
+<li><strong>Disruptive product development.</strong> Antifragile organizations aren’t content with stress generated by their environment. Like humans exercising, they also try and disrupt themselves (the organizational equivalent of a game day). For example, <a href="http://blogs.hbr.org/ideacast/2013/01/jeff-bezos-on-leading-for-the.html">Amazon cannibalized its own business</a>, creating the Amazon Marketplace and the Kindle. Apple is <a href="http://blogs.hbr.org/cs/2011/10/steve_jobs_solved_the_innovato.html">cannibalizing its Mac business</a> with the iPad. Fragile organizations resist disrupting their own product lines, as <a href="http://spectrum.ieee.org/semiconductors/processors/25-microchips-that-shook-the-world/5">Toshiba did at first with flash memory</a>. If you do a good job at this you never need to worry about the competition - you’ll always beat them to it.</li>
+</ul>
+<h3>Fragility and Agility</h3>
+<p>As Taleb points out, “antifragility is desirable in general, but not always, as there are cases in which antifragility will be costly, extremely so. Further, it is hard to consider robustness as always desirable---to quote Nietzsche, one can die from being immortal.” (p22) Of course working out where on the spectrum you want your systems and your organization to lie is an art, and the great artists are those that know how to build systems, organizations, and products simply, quickly and cheaply so that they are antifragile with respect to our biggest enemy: time. How do they do that? Using the same heuristics described in “antifragile organizations”, above, which closely mirror the <a href="http://itrevolution.com/the-three-ways-principles-underpinning-devops/">Three Ways of Devops</a>.</p>
+<p>As I read <a href="http://www.amazon.com/dp/1400067820?tag=contindelive-20">Antifragile</a>, it reminded me of something I read a number of years ago: Kent Beck and Cynthia Andres’ <a href="http://www.amazon.com/dp/0321278658?tag=contindelive-20">Extreme Programming Explained</a>. The subtitle? Embrace Change. It strikes me that the concept of antifragile is what we were aiming for with agile the whole time: building systems (including human systems - organizations) that benefit from volatility.</p>
+<hr/>
+<h4>Endnotes</h4>
+<p>Thanks to <a href="https://twitter.com/badrij">Badrinath Janakiraman</a> for feedback on an earlier draft of this post.</p>
+<p><a name="1">1</a> He is talking about financial markets, which are rather less fragile than IT systems, hence his rather generous “years of stability”</p>

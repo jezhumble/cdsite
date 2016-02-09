@@ -1,0 +1,83 @@
+---
+layout: post
+status: publish
+published: true
+title: The Science Behind the 2013 Puppet Labs DevOps Survey Of Practice
+author:
+  display_name: jez
+  login: jez
+  email: jez@jezhumble.net
+  url: ''
+author_login: jez
+author_email: jez@jezhumble.net
+wordpress_id: 1141
+wordpress_url: http://continuousdelivery.com/?p=1141
+date: '2013-12-30 11:27:39 +0000'
+date_gmt: '2013-12-30 19:27:39 +0000'
+tags: []
+---
+<p><strong>By <a href="https://twitter.com/RealGeneKim">Gene Kim</a> and Jez Humble</strong></p>
+<p>Last year, we both had the privilege of working with Puppet Labs to develop the 2012 DevOps Survey Of Practice. It was especially exciting for Gene, because we were able to benchmark the performance of over 4000 IT organizations, and to gain an understanding what behaviors result in their incredible performance. This continues research that he has been doing of high performing IT organizations that started for him in 1999.</p>
+<p>In this blog post, Gene Kim and I will discuss the research hypotheses that we’re setting out to test in the 2013 DevOps Survey Of Practice, explain the mechanics of how these types of cross-population studies actually work (so you help this research effort or even start your own), then describe the key findings that came out of the 2012 study.</p>
+<p>But first off, if you’re even remotely interested in DevOps, <a href="http://www.surveygizmo.com/s3/1483785/DevOps-Survey-2013">go take the 2013 Puppet Labs DevOps Survey here</a>! The survey closes on January 15, 2014, so hurry! It only takes about ten minutes.</p>
+<p><a id="more"></a><a id="more-1141"></a></p>
+<h3 id="2013-devops-survey-research-goals">2013 DevOps Survey Research Goals</h3>
+<p>Last year’s study (which we’ll describe in more detail below) found that high performing organizations that were employing DevOps practices were massively outperforming their peers: they were doing 30x more frequent code deploys, and had deployment lead times measured in minutes or hours (versus lower performers, who required weeks, months or quarters to complete their deployments).</p>
+<p>The high performers also had far better deployment outcomes: their changes and deployments had twice the change success rates, and when the changes failed, they could restore service 12x faster.</p>
+<p>The goal of the 2013 study is to gain a better understanding of exactly what practices are required to achieve this high performance. Our hypothesis is that the following are required, and we’ll be looking to independently evaluate the effect of each of these practices on performance:</p>
+<ul>
+<li>small teams with high trust that span the entire value stream: Dev, QA, IT Operations and Infosec</li>
+<li>shared goals and shared pain that span the entire value stream</li>
+<li>small development batch sizes</li>
+<li>presence of continuous, automated integration and testing</li>
+<li>emphasis on creating a culture of learning, experimentation and innovation</li>
+<li>emphasis on creating resilient systems</li>
+</ul>
+<p>We are also testing two other hypotheses that one of us (Gene) is especially excited about, because it’s something he’s wanted to do ever since 1999!</p>
+<p><strong>Lead time</strong>: In plant manufacturing, lead time is the time required to turn raw materials into finished goods. There is a deeply held belief in the Lean community that lead time is the single best predictor of quality, customer satisfaction and employee happiness. We are testing this hypothesis for the DevOps value stream in the 2013 survey instrument.</p>
+<p><strong>Organizational performance</strong>: Last year, we confirmed that DevOps practices correlate with substantially improved IT performance (e.g., deploy frequencies, lead times, change success rates, MTTR). This year, we will be testing whether improved IT performance correlates with improved business performance. In this year’s study, we’ve added inserted three questions that are known to correlate with organizational performance, which is known to correlate with business performance (e.g., competitiveness in the marketplace, return on assets, etc.).</p>
+<p>Our dream headline would be, “high performing organizations not only do 30x more frequent code deployments than their peers, but they also outperform the S&amp;P 500 by 3x as measured by shareholder return and return on assets.”</p>
+<p>Obviously, there are many other variables that contribute to business performance besides Dev and Ops performance (e.g., profitability, market segment, market share, etc.). However, in our minds, the reliance upon IT performance is obvious: as Chris Little said, “Every organization is an IT business, regardless of what business they think they’re in.”</p>
+<p>When IT does poorly, the business will do poorly. And when IT helps the organization win, those organizations will out-perform their competitors in the marketplace.</p>
+<p>(This hypothesis forms the basis of the hedge fund that Erik wants to create in the last chapter of <a href="http://www.amazon.com/The-Phoenix-Project-Business-ebook/dp/B00AZRBLHO/">"The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win"</a>, where they would make long or short bets, based on the known operating characteristics of the IT organization.)</p>
+<h3 id="the-theory-behind-cross-population-studies-and-survey-instruments">The Theory Behind Cross-Population Studies and Survey Instruments</h3>
+<p>Like last year, this year’s DevOps survey is a cross-population study, designed to explore the link between organizational performance and organizational practices and cultural norms.</p>
+<p>What is a cross-population study? It’s a statistical research technique designed to uncover what factors (e.g., practices, cultural norms, etc.) correlate with outcomes (e.g., IT performance). Cross-population studies are often used in medical research to answer questions like, “is cigarette smoking a significant factor in early mortality?”</p>
+<p>Properly designed cross-population studies are considered a much more rigorous approach of testing efficacy of what practices work than say, interviewing people about what they think worked, ROI stories from vendors, or collecting “known, best practices.”</p>
+<p><img class="alignnone" alt="" src="https://draftin.com:443/images/6464?token=JXI7N7uDAMybn5lduEANKdQhwmXNNkJoBYsb2fE4jeFS9KsliXjnALaa33oHlCOP0_nW8tviUZ8zYBdwzPIOPtQ" width="426" height="289" /></p>
+<p>When doing survey design, we might state our hypotheses in the following form: “we believe that IT organizations which have high trust have higher IT performance.” In other words, the higher the trust levels in the IT organization, the higher the performance.</p>
+<p>We then put this question in the survey instrument, and then analyze the results. If we were to plot the results on a graph, we would put the dependent variable (i.e., performance) on the Y-axis, and the independent variable (i.e., presence of high trust) on the X-axis.</p>
+<p>We would then test to see if there is a correlation between the two. Shown below is an example of what it looks like when the two variables have low or no correlation, and one that has a significant positive correlation.</p>
+<p><img class="alignnone" alt="" src="https://draftin.com:443/images/6465?token=EVRyxLU4nXU9O19I5TKk_64PCVLbwzGFy9P3kEQKdMUo4Ceg6Yn-cC5jFw2_N9IQwEPkrSUBLmUA_cJKWm5YP3g" width="463" height="162" /></p>
+<p>If we were to find a significant correlation, such as displayed on the right, we could then assert that “the higher your organization’s trust levels, in general, the higher your IT performance.”</p>
+<p>(Graph adapted from <a href="http://en.wikipedia.org/wiki/Correlation_and_dependence">Wikipedia entry on Correlation and Dependence</a>.)</p>
+<h3 id="key-2012-devops-survey-findings">The 2012 DevOps Survey</h3>
+<p>In this section, we will describe the the key findings that came out of the 2012 DevOps Survey, as well as a brief discussion of the research hypotheses that went into the survey design.</p>
+<p>In the DevOps community, we have long asserted that certain practices enables organizations simultaneously deliver fast flow of features to market, while providing world-class stability, reliability and security.</p>
+<p>We designed the survey to validate this, and tested a series of technical practices to determine which of them correlated with high performance.</p>
+<p>The survey ran for 30 days, and we had 4,039 completed respondents. (This is an astonishingly high number, by the way. When Kurt Milne and Gene Kim did similar studies in 2006, each study typically required $200K to do the survey design, gather responses from a couple hundred people, and then perform survey analysis.)</p>
+<p>You can find the <a href="http://www.slideshare.net/realgenekim/2013-velocity-devops-metrics-its-not-just-for-webops-any-more">slides that Gene Kim, Jez Humble and James Turnbull presented at the 2013 Velocity Conference here</a>, and the <a href="https://puppetlabs.com/2013-state-of-devops-infographic">full Puppet Labs infographics and results here</a>.</p>
+<p>&nbsp;</p>
+<p>The first surprise was how much the high performing organizations were outperforming their non-high-performing peers:</p>
+<ul>
+<li><span style="font-size: 13px; line-height: 19px;">Agility metrics</span>
+<ul>
+<li><span style="font-size: 13px; line-height: 19px;">30x more frequent code deployments</span></li>
+<li><span style="font-size: 13px; line-height: 19px;">8,000x faster lead time than their peers</span></li>
+</ul>
+</li>
+<li><span style="font-size: 13px; line-height: 19px;">Reliability metrics</span>
+<ul>
+<li><span style="font-size: 13px; line-height: 19px;">2x the change success rate</span></li>
+<li><span style="font-size: 13px; line-height: 19px;">12x faster MTTR</span></li>
+</ul>
+</li>
+</ul>
+<p>In other words, they were more agile: they were deploying code 30x more frequently, and the lead time required to go from “code committed” to “successfully running in production” was completed 8,000x faster — high performers had lead times measured in minutes or hours, while lower performers had lead times measured in weeks, months or even quarters.</p>
+<p>Not only were the high performers doing more work, but they had far better outcomes: when the high performers deployed changes and code, they were twice as likely to be completed successfully (i.e., without causing a production outage or service impairment), and when the change failed and resulted in an incident, the time required to resolve the incident was 12x faster.</p>
+<p>We were astonished and delighted with this finding, as it showed not only that it was possible to break the core, chronic conflict, but that it seemed to confirm that just as in manufacturing, agility and reliability go hand in hand. In other words, lead time correlates with both both agility and reliability.</p>
+<p>(Gene will write more on his personal interpretations of the 2012 DevOps Survey Of Practice in a future post.)</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>We hope this gives you a good idea of why we’ve worked so hard on the 2012 and 2013 DevOps Survey, as well as how to conduct your own cross-population studies. Please let us know if you have any questions or if there’s anything we can do for you.</p>
+<p>And of course, help us understand what in DevOps and Continuous Delivery work by <a href="http://www.surveygizmo.com/s3/1483785/DevOps-Survey-2013">taking 10 minutes to participate in the 2013 Puppet Labs DevOps Survey here by January 15, 2014</a>!</p>
+<p>Thank you! --Gene Kim and Jez Humble</p>
