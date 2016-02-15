@@ -27,39 +27,55 @@ logourl: /assets/img/18f-logo.png
 logoalt: Continuous Delivery
 
 # To expand all navigation bar entries by default, set this property to true:
-expand_nav: true
+expand_nav: false
 
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
 - text: Introduction
   internal: true
-- text: Add a new page
-  url: add-a-new-page/
+- text: Principles
+  url: principles/
+  internal: true
+- text: Foundations
+  url: foundations/
   internal: true
   children:
-  - text: Make a child page
-    url: make-a-child-page/
+  - text: Configuration management
+    url: configuration-management/
     internal: true
-- text: Add images
-  url: add-images/
-  internal: true
-- text: Update the config file
-  url: update-the-config-file/
+  - text: Continuous integration
+    url: continuous-integration/
+    internal: true
+  - text: Test-automation
+    url: test-automation/
+    internal: true
+- text: Implementing continuous delivery
+  url: implementing-cd/
   internal: true
   children:
-  - text: Understanding the `baseurl:` property
-    url: understanding-baseurl/
+  - text: Architecture
+    url: architecture/
     internal: true
-- text: GitHub setup
-  url: github-setup/
+  - text: Culture
+    url: culture/
+    internal: true
+  - text: Patterns
+    url: patterns/
+    internal: true
+- text: Evidence & case studies
+  url: evidence-case-studies/
   internal: true
-- text: Post your guide
-  url: post-your-guide/
+- text: Blog
+  url: blog/
   internal: true
-- text: Advanced features
-  url: advanced-features/
+- text: About
+  url: about/
   internal: true
+  children:
+  - text: Talks
+    url: talks/
+    internal: true
 
 repos:
 - name: Guides Template
