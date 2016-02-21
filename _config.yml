@@ -47,7 +47,7 @@ navigation:
   - text: Continuous integration
     url: continuous-integration/
     internal: true
-  - text: Test automation
+  - text: Continuous testing
     url: test-automation/
     internal: true
 - text: Implementing continuous delivery
