@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jezhumble/guides-style.git
-  revision: 8775d94dc1dfa85f99b97eef8437c801020123f9
+  revision: 15a18bc9ce200199816887d213ed20d58f53f98e
   branch: master
   specs:
     guides_style_cd (0.3.0)

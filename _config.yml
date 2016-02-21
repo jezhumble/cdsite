@@ -47,11 +47,11 @@ navigation:
   - text: Continuous integration
     url: continuous-integration/
     internal: true
-  - text: Test-automation
+  - text: Test automation
     url: test-automation/
     internal: true
 - text: Implementing continuous delivery
-  url: implementing-cd/
+  url: implementing/
   internal: true
   children:
   - text: Architecture
