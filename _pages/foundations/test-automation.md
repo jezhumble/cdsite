@@ -71,8 +71,29 @@ pipeline as your product or service evolves.
 
 ###Resources###
 
-Bodart
-Hendrickson
+* Lisa Crispin and Janet Gregory have two great books on agile
+  testing:
+  [Agile Testing](http://www.amazon.com/dp/0321534468?tag=contindelive-20)
+  and [More Agile Testing](http://www.amazon.com/dp/0321967054?tag=contindelive-20)
+
+* Elisabeth Hendrickson has written an excellent book on exploratory testing,
+[_Explore It!_](http://www.amazon.com/dp/1937785025?tag=contindelive-20). I
+[recorded an interview](/2012/10/elisabeth-hendrickson-discusses-agile-testing/)
+with her where we discuss the role of testers, acceptance test driven
+development, and the impact of continuous delivery on testing.
+
+* Gojko Adzic's
+  [Specification By Example](http://www.amazon.com/dp/1617290084?tag=contindelive-20)
+  has a series of interviews with successful teams worldwide and is a
+  good distillation of effective patterns for specifying requirements
+  and tests.
+
+* Think that "a few minutes" is optimistic for running automated
+  tests? Read Dan Bodart's blog post [Crazy fast build times](http://dan.bodar.com/2012/02/28/crazy-fast-build-times-or-when-10-seconds-starts-to-make-you-nervous/)
+
+* Martin Fowler
+  [discusses the Test Pyramid and its evil twin, the ice cream cone](http://martinfowler.com/bliki/TestPyramid.html)
+  on his bliki.
 
 ###FAQ###
 
