@@ -9,7 +9,7 @@ and automate them. In order to achieve this, we need to version control everythi
 required to perform these processes, including source code, test
 and deployment scripts, infrastructure and application configuration
 information, and the many libraries and packages we depend upon. We
-also want to make it straightforward to query the current&mdash;and historical&mdash;state of
+also want to make it straightforward to query the current---and historical---state of
 our environments.
 
 We have two overriding goals:
@@ -50,7 +50,7 @@ These capabilities give us several very important benefits:
   which goes faster by bypassing some of the testing and
   auditing. This presents an especially serious dilemma in
   safety-critical systems. Our goal should be to be able to use our
-  normal release process for emergency fixes&mdash;which is precisely
+  normal release process for emergency fixes---which is precisely
   what continuous delivery enables, on the basis of comprehensive
   configuration management.
 

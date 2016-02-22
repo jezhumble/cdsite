@@ -1,4 +1,6 @@
 markdown: redcarpet
+redcarpet:
+  extensions: ["smart"]
 name: Continuous Delivery
 exclude:
 - CONTRIBUTING.md

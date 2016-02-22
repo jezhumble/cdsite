@@ -24,8 +24,8 @@ wrote the code being tested.
   updating test documentation to keep it up-to-date.
 
 In order to build quality in to software, we need to adopt a different
-approach. Our goal is to run many different types of tests&mdash;both
-manual and automated&mdash;_continually_ throughout the delivery process. The types of tests we
+approach. Our goal is to run many different types of tests---both
+manual and automated---_continually_ throughout the delivery process. The types of tests we
 want to run are nicely laid out the quadrant diagram created by Brian
 Marick, below:
 
@@ -63,13 +63,15 @@ looking to improve our automated tests. If we discover a defect in the
 acceptance tests, we should be looking to improve our unit tests (most
 of our defects should be discovered through unit testing).
 
-Get started by building a skeleton deployment pipeline&mdash;create a
+Get started by building a skeleton deployment pipeline---create a
 single unit test, a single acceptance test, an automated deployment
 script that stands up an exploratory testing envrionment, and thread
 them together. Then increase test coverage and extend your deployment
 pipeline as your product or service evolves.
 
 ###Resources###
+
+* A [1h video](https://www.youtube.com/watch?v=X9ap-zH0Gkc) in which [Badri Janakiraman](https://twitter.com/badrij) and I discuss how to create maintainable suites of automated acceptance test
 
 * Lisa Crispin and Janet Gregory have two great books on agile
   testing:
@@ -99,14 +101,14 @@ development, and the impact of continuous delivery on testing.
 
 *Does continuous delivery mean firing all our manual testers?*
 
-No. Manual testers have a unique perspective on the system&mdash;they
+No. Manual testers have a unique perspective on the system---they
 understand how users interact with it. I recommend having manual
 testers pair alongside developers (in person) to help them create and evolve the
 suites of automated tests. This way, developers get to understand the
 testers' perspective, and testers can start to learn test
 automation. Manual testers should also be performing _exploratory
 testing_ as part of their work. Certainly, manual testers will have to learn new
-skills&mdash;but that is true of anybody working in our industry.
+skills---but that is true of anybody working in our industry.
 
 *Should we be automating all of our tests?*
 
@@ -120,7 +122,7 @@ every product and service we build.
 
 *Should I stop and automate all of my manual tests right now?*
 
-No. Start by writing a couple of automated tests&mdash;the ones that
+No. Start by writing a couple of automated tests---the ones that
 validate the most important functionality in the system. Get those
 running on every commit. Then the rule is to add new tests to cover
 new functionality that is added, and functionality that is being
