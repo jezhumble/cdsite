@@ -4,8 +4,8 @@ title: What is Continuous Delivery?
 ---
 
 Continuous Delivery is the ability to get changes of all
-types&mdash;including new features, configuration changes, bug
-fixes&mdash;into production, or into the hands of users, _safely_ and
+types---including new features, configuration changes, bug
+fixes---into production, or into the hands of users, _safely_ and
 _quickly_ in a _sustainable_ way.
 
 Our goal is to make deployments&mdash;whether of a large-scale
@@ -25,4 +25,7 @@ deployments painless, low-risk events, although this is the main
 motivation behind the principles and practices described
 here. Continuous delivery has several other important benefits:
 
-* __Reduced time to market__. By en
+* __Reduced time to market__. By automating much of the non-value-add
+  activity in software development, such as build, deployment,
+  environment provisioning, and regression testing, we enable software
+  teams to move faster.

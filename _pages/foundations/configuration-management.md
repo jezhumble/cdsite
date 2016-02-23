@@ -70,6 +70,7 @@ approach is going to be too expensive or take too long.
 
 ### Resources ###
 
+* My talk on [lean configuration management](https://www.youtube.com/watch?v=L1w2_AY82WY)
 * Kief Morris' entry on
   [ImmutableServer](http://martinfowler.com/bliki/ImmutableServer.html)
   in Martin Fowler's bliki is a good place to start, along with Kief's
