@@ -33,3 +33,10 @@ One pattern that is particularly valuable in this context is the [strangler appl
 * An episode of software engineering radio in which Rebecca Parsons discusses [evolutionary architecture](http://www.se-radio.net/2015/08/se-radio-episode-236-rebecca-parsons-on-evolutionary-architecture/).
 * Another technique for incremental architectural change while working on trunk: [branch by abstraction](/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
 * Sam Newman's canonical book on [microservices](http://www.amazon.com/dp/1491950358?tag=contindelive-20).
+
+### FAQ ###
+
+*Is continuous delivery just for websites?*
+
+No. In the [case studies](/evidence-case-studies) section of the site, you'll find examples from teams applying continuous delivery to every type of architecture from firmware to mainframes. The architecture people seem to have the most trouble with anecdotally is packaged software / COTS. However research from the 2015 State of Devops Report shows that there is no correlation between working on this kind of system and poor performance.
+
