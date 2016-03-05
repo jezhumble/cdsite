@@ -32,7 +32,8 @@ One pattern that is particularly valuable in this context is the [strangler appl
 * Paul Hammant provides a series of [strangulation case studies](http://paulhammant.com/2013/07/14/legacy-application-strangulation-case-studies/).
 * An episode of software engineering radio in which Rebecca Parsons discusses [evolutionary architecture](http://www.se-radio.net/2015/08/se-radio-episode-236-rebecca-parsons-on-evolutionary-architecture/).
 * Another technique for incremental architectural change while working on trunk: [branch by abstraction](/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
-* Sam Newman's canonical book on [microservices](http://www.amazon.com/dp/1491950358?tag=contindelive-20).
+* Sam Newman's canonical book on [microservices](http://www.amazon.com/dp/1491950358?tag=contindelive-20), and his 30m talk on [testing and deploying microservices](https://www.youtube.com/watch?v=FotoHYyY8Bo).
+* Randy Shoup's talk [From the Monolith to Microservices](http://www.ustream.tv/recorded/61479577) describes how companies including eBay, Google and Amazon evolved their architectures over time.
 
 ### FAQ ###
 
