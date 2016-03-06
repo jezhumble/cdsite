@@ -32,7 +32,7 @@ Marick, below:
 <img src="/images/test-quadrant.png" />
 
 Once we have continuous integration and test automation in place, we
-create a [_deployment pipeline_](/implementing/patterns/) (the key pattern in continuous
+create a [_deployment pipeline_](/implementing/patterns/#the-deployment-pipeline) (the key pattern in continuous
 delivery). In the deployment pipeline pattern, every change runs a
 build that a) creates packages that can be deployed to any environment
 and b) runs unit tests (and possibly other tasks such as static
@@ -82,7 +82,8 @@ pipeline as your product or service evolves.
 [_Explore It!_](http://www.amazon.com/dp/1937785025?tag=contindelive-20). I
 [recorded an interview](/2012/10/elisabeth-hendrickson-discusses-agile-testing/)
 with her where we discuss the role of testers, acceptance test driven
-development, and the impact of continuous delivery on testing.
+development, and the impact of continuous delivery on testing. Watch
+her awesome 30m talk [On the Care and Feeding of Feedback Cycles](https://www.youtube.com/watch?v=91nAd6sLamI).
 
 * Gojko Adzic's
   [Specification By Example](http://www.amazon.com/dp/1617290084?tag=contindelive-20)
