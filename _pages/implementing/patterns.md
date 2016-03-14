@@ -23,10 +23,4 @@ However in the context of web-based systems there are a number of patterns for i
 The four key principles that enable low-risk releases (along with many of the following patterns) are described in my article [Four Principles of Low-Risk Software Releases](http://www.informit.com/articles/article.aspx?p=1833567). The principles are:
 
 1. **Low-risk Releases are Incremental**. Our goal is to [architect](/implementing/architecture/) our systems such that we can release individual changes (including [database changes](https://web.archive.org/web/20130917140352/http://exortech.com/blog/2009/02/01/weekly-release-blog-11-zero-downtime-database-deployment)) independently, rather than having to orchestrate big-bang releases due to tight coupling between multiple different systems. This typically requires building versioned APIs and implementing patterns such as [circuit breaker](http://martinfowler.com/bliki/CircuitBreaker.html).
-2. **Decouple Deployment and Release**. 
-
-#### Blue-Green Deployment ####
-
-#### Canary Releasing ####
-
-#### Dark Launching ####
+2. **Decouple Deployment and Release**. We

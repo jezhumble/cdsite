@@ -2,7 +2,7 @@
 title: Talks
 ---
 
-I've given a lot of talks on continuous delivery over the years. Some of them are included in this guide. You can find a list of some of the main ones below. I accept very few speaking engagements these days because of my work commitments, but I do occasionally speak at conferences and at companies (at my consulting day rate). My contact details are at the bottom of this page.
+I've given a lot of talks on continuous delivery over the years. Some of them are included in this guide. You can find a list of some of the main ones below. I accept very few speaking engagements these days because of my work commitments, but I do occasionally speak at conferences and at companies (at my consulting day rate).
 
 ###Biography###
 
