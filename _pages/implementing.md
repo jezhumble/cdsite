@@ -7,15 +7,16 @@ two common mistakes. The first is to treat continuous delivery as an
 end-state, a goal in itself. The second is to spend a lot of time and
 energy worrying about what products to use.
 
-In this section I discuss what should be your two biggest concerns:
+In this section you can read about the two biggest impediments to
+continuous delivery:
 enteprise [archietcture](/implementing/architecture/), and
-organizational [culture](/implementing/culture/). I then present a set
+organizational [culture](/implementing/culture/). You can also see a set
 of [patterns](/implementing/patterns/) that have been successfully
 applied to increase throughput, stability and quality.
 
 ### Resources ###
 
-* A short article I wrote on how to navigate a successful
+* A short article on how to navigate a successful
   transformation initiative: [Six Steps To Survive A DevOps Transformation](http://www.informationweek.com/strategic-cio/enterprise-agility/6-steps-to-survive-a-devops-transformation/a/d-id/1319704)
 * My 45m talk on
 [Adopting Continuous Delivery](https://www.youtube.com/watch?v=ZLBhVEo1OG4)

@@ -4,9 +4,9 @@ title: Architecture
 
 In the context of enterprise architecture there are typically multiple attributes we are concerned about, for example availability, security, performance, security, usability and so forth. In continuous delivery, we introduce two new architectural attributes: testability and deployability.
 
-In a testable architecture, we design our software such that most defects can (in principle, at least) be discovered by developers by running automated tests on their workstations. We shouldn't need to depend on complex, integrated environments in order to do the majority of our acceptance and regression testing.
+In a _testable_ architecture, we design our software such that most defects can (in principle, at least) be discovered by developers by running automated tests on their workstations. We shouldn't need to depend on complex, integrated environments in order to do the majority of our acceptance and regression testing.
 
-In a deployable architecture, deployments of a particular product or service can be performed independently and in a fully automated fashion, without the need for significant levels of orchestration. Deployable systems can typically be upgraded or reconfigured with zero or minimal downtime.
+In a _deployable_ architecture, deployments of a particular product or service can be performed independently and in a fully automated fashion, without the need for significant levels of orchestration. Deployable systems can typically be upgraded or reconfigured with zero or minimal downtime.
 
 Where testability and deployability are not prioritized, we find that much testing requires the use of complex, integrated environments, and deployments are "big bang" events that require that many services are released at the same time due to complex interdependencies. These "big bang" deployments require many teams to work together in a carefully orchestrated fashion with many hand-offs, and dependencies between hundreds or thousands of tasks. Such deployments typically take many hours or even days, and require scheduling significant downtime.
 
