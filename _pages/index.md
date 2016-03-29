@@ -23,11 +23,11 @@ as code freezes.
 
 It is often assumed that if we want to deploy software more
 frequently, we must accept lower levels of stability and reliability
-in our systems. In fact, peer-reviewed research shows that this is not
+in our systems. In fact, [peer-reviewed research](/evidence-case-studies/#research) shows that this is not
 the case---high performance teams consistently deliver services faster
 _and_ more reliably than their low performing competition. This is
-true even in highly regulated domains such as financial services and
-government. This capability provides an incredible competitive advantage for
+true even in highly regulated domains such as [financial services](https://www.youtube.com/watch?v=eMS97X5ZTGc) and
+[government](https://www.youtube.com/watch?v=QwHVlJtqhaI). This capability provides an incredible competitive advantage for
 organizations that are willing to invest the effort to pursue it. 
 
 The practices at the heart of continuous delivery help us achieve
@@ -35,8 +35,8 @@ several important benefits:
 
 * __Reducing the risk of deployments__. The primary goal of continuous
 delivery is to make software deployments painless, low-risk events
-that can be performed at any time, on demand. By applying patterns such as
-blue-green deployments it is relatively straightforward to achieve
+that can be performed at any time, on demand. By applying [patterns](/implementing/patterns/) such as
+[blue-green deployments](http://martinfowler.com/bliki/BlueGreenDeployment.html) it is relatively straightforward to achieve
 zero-downtime deployments that are undetectable to users.
 
 * __Reduced time to market__. It's not uncommon for the integration
@@ -52,7 +52,7 @@ zero-downtime deployments that are undetectable to users.
   discover regressions within minutes, teams are freed to focus their
   effort on user research and higher level testing activities such as exploratory
   testing, usability testing, and performance and security testing. By
-  building a deployment pipeline, these activities can be performed
+  building a [deployment pipeline](/foundations/test-automation/), these activities can be performed
   continuously throughout the delivery process, ensuring quality is
   built in to products and services from the beginning.
 
@@ -66,13 +66,13 @@ in build, test, deployment and environment automation, we
 * __Better products__. Continuous delivery makes it economic to work
   in small batches. This means we can get feedback from users
   throughout the delivery lifecycle based on working
-  software. Techniques such as A/B testing enable us to take a
-  hypothesis-driven approach to product development whereby we can
+  software. Techniques such as [A/B testing](http://www.infoq.com/presentations/controlled-experiments) enable us to take a
+  [hypothesis-driven approach to product development](https://www.thoughtworks.com/insights/blog/how-implement-hypothesis-driven-development) whereby we can
   test ideas with users before building out whole features. This
-  means we can avoid the 2/3 of features we build that deliver zero or
-  negative value to our businesses.
+  means we can avoid the [2/3 of features we build that deliver zero or
+  negative value](stanford.io/130uW6X) to our businesses.
 
-* __Happier teams__. Peer-reviewed research has shown continuous
+* __Happier teams__. [Peer-reviewed research](/evidence-case-studies/#research) has shown continuous
   delivery makes releases less painful and reduces team
   burnout. Furthermore, when we release more frequently, software
   delivery teams can engage more actively with users, learning which
