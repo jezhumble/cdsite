@@ -2,3 +2,19 @@
 ---
 
 @import "guides_style_18f";
+
+.sidebar-nav a:hover,
+.sidebar-nav a:focus,
+.sidebar-nav a:active,
+.sidebar-nav .sidebar-nav-active > a {
+  background-color: #ffcc99;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}

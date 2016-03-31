@@ -15,6 +15,7 @@ permalink: /:year/:month/:title/
 encoding: utf-8
 highlighter: rouge
 incremental: true
+url: http://continuousdelivery.com
 
 sass:
   style: :compressed
@@ -25,7 +26,7 @@ author:
   url: http://continuousdelivery.com/
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /assets/img/18f-logo.png
+logourl: /images/cd-book.png
 logoalt: Continuous Delivery
 
 # To expand all navigation bar entries by default, set this property to true:
@@ -80,11 +81,11 @@ navigation:
     internal: true
 
 repos:
-- name: Guides Template
+- name: Continuous Delivery
   description: Main repository
-  url: https://github.com/18F/guides-template
+  url: https://github.com/jezhumble/cdsite
 
-google_analytics_ua: 
+google_analytics_ua: UA-29680385-1
 
 collections:
   pages:
