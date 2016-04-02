@@ -9,7 +9,7 @@ energy worrying about what products to use.
 
 In this section you can read about the two biggest impediments to
 continuous delivery:
-enteprise [archietcture](/implementing/architecture/), and
+enterprise [architecture](/implementing/architecture/), and
 organizational [culture](/implementing/culture/). You can also see a set
 of [patterns](/implementing/patterns/) that have been successfully
 applied to increase throughput, stability and quality.
