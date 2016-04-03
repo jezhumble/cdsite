@@ -33,13 +33,13 @@ organizations that are willing to invest the effort to pursue it.
 The practices at the heart of continuous delivery help us achieve
 several important benefits:
 
-* __Reducing the risk of deployments__. The primary goal of continuous
+* __Low risk releases__. The primary goal of continuous
 delivery is to make software deployments painless, low-risk events
 that can be performed at any time, on demand. By applying [patterns](/implementing/patterns/) such as
 [blue-green deployments](http://martinfowler.com/bliki/BlueGreenDeployment.html) it is relatively straightforward to achieve
 zero-downtime deployments that are undetectable to users.
 
-* __Reduced time to market__. It's not uncommon for the integration
+* __Faster time to market__. It's not uncommon for the integration
   and test/fix phase of the traditional phased software delivery lifecycle to
   consume weeks or even months. When teams work together to automate
   the build and deployment,  environment  provisioning, and regression
