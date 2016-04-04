@@ -14,4 +14,4 @@ I work for the US federal government at 18F (a unit of the General Services Admi
 
 ###A note on contacting me###
 
-The best way to reach me is by email at humble@acm.org, but unfortunately due to the large amount of email I receive I can't guarantee a timely response. I allocate a fixed amount of time to dealing with email, with the result is that my backlog is long and growing. I apologize in advance.
+The best way to reach me is by email at humble@acm.org, but unfortunately due to the large amount of email I receive I can't guarantee a timely response. I allocate a fixed amount of time to dealing with email, with the result that my backlog is long and growing. I apologize in advance.
