@@ -33,8 +33,6 @@ Any company that hopes to _survive_ in the digital age must move beyond zero sum
 
 Gartner's work on Bimodal provides valuable advice on how to kick-start an enterprise digital transformation. But leaders wishing to create a significant, lasting impact on IT performance should look to move beyond the Bimodal paradigm in the space of months rather than years. The most important enabler here is also, as John Kotter writes in [_Leading Change_](http://www.amazon.com/dp/1422186431?tag=contindelive-20), the hardest to achieve---a sense of urgency at all levels of the company that significant change is absolutely necessary. Given this sense of urgency, a clear set of goals, and a culture of collaboration and problem-solving throughout the organization, anything is possible.
 
-> **Jez Humble, Gene Kim and Nicole Forsgren's [research program](http://devops-research.com/) produces top quality, free, peer-reviewed scientific research to support leaders and practitioners working to build high performance digital companies. Please help by giving us 20 minutes of your time and [taking the 2016 State of DevOps Survey](https://bit.ly/2016-devops-survey) today.**
-
 ***
 
 [^1]: Gartner also talks about [systems of differentiation](http://www.gartner.com/newsroom/id/1923014), which exhibit characteristics intermediate between systems of record and engagement.
