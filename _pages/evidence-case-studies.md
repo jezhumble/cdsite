@@ -9,7 +9,7 @@ canonical 2009 Velocity talk [10+ Deploys Per Day: Dev and Ops
 Cooperation at Flickr](https://www.youtube.com/watch?v=LdOe18KhtT4) to Ken Exner's talk on [transforming
 software development at Amazon](https://www.youtube.com/watch?v=YCrhemssYuI). If you want to see more
 traditional companies talk about their journey, check out the videos
-from the DevOps Enterprise Summit [2014](https://www.youtube.com/user/DOES2014) and [2015](https://www.youtube.com/channel/UCkyYEVVmT9vQ4yPBR4ciFUA/feed).</a>
+from the DevOps Enterprise Summit [2014](https://www.youtube.com/user/DOES2014) and [2015](https://www.youtube.com/channel/UCkyYEVVmT9vQ4yPBR4ciFUA/feed).
 There are also a number of case studies presented in the various sections of
 this website.
 
