@@ -7,11 +7,11 @@ I've given a lot of talks on continuous delivery over the years. Some of them ar
 ###Biography###
 
 <img src="/images/jez.jpeg" width="150px" style="padding:10px;float:left;" />
-Jez Humble is co-author of the Jolt Award winning <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>, published in Martin Fowler’s Signature Series (Addison Wesley, 2010), and <a href="http://www.amazon.com/dp/1449368425?tag=contindelive-20">Lean Enterprise</a>, in Eric Ries’ Lean series (O'Reilly, 2015). He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents. He is currently researching how to build high performing teams, and helping to create a cloud platform for government. He works at <a href="http://18f.gsa.gov">18F</a>, and <a href="http://www.ischool.berkeley.edu/people/faculty/jezhumble">teaches at UC Berkeley</a>.
+Jez Humble is co-author of the Jolt Award winning <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>, published in Martin Fowler’s Signature Series (Addison Wesley, 2010), and <a href="http://www.amazon.com/dp/1449368425?tag=contindelive-20">Lean Enterprise</a>, in Eric Ries’ Lean series (O'Reilly, 2015). He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents. He is currently researching how to build high performing teams, and helping to create a cloud platform for government. He works at <a href="http://18f.gsa.gov">18F</a>, <a href="http://www.ischool.berkeley.edu/people/faculty/jezhumble">teaches at UC Berkeley</a>, and is co-founder of <a href="https://devops-research.com">DevOps Research and Assessment LLC</a>.
 
 ### Continuous Delivery ###
 
-[slides](http://www.slideshare.net/jezhumble/continuous-delivery-5359386) | [video](http://www.youtube.com/watch?v=skLJuksCRTw) | [video (with Martin Fowler)](http://yow.eventer.com/events/1004/talks/1062)
+[slides](http://www.slideshare.net/jezhumble/continuous-delivery-5359386) &#124; [video](http://www.youtube.com/watch?v=skLJuksCRTw) &#124; [video (with Martin Fowler)](http://yow.eventer.com/events/1004/talks/1062)
 
 Businesses rely on getting valuable new software into the hands of users as fast as possible, while making sure that they keep their production environments stable. Continuous Delivery is a revolutionary and scalable approach to software delivery that enables any team, including teams within enterprise IT organizations, to achieve rapid, reliable releases through better collaboration between developers, testers, DBAs and operations, and automation of the build, deploy, test and release process.
 
@@ -19,13 +19,13 @@ I’ll start by discussing the value of CD to the business, inspired by the lean
 
 ### Lean Enterprise ###
 
-[slides](http://www.slideshare.net/jezhumble/lean-enterprise-42651898) | [video](https://yow.eventer.com/yow-2014-1222/the-lean-enterprise-by-jez-humble-1696) (50m) | [video](http://yow.eventer.com/events/1004/talks/1062) (1h40m with [Gary Gruver](http://practicallargescaleagile.com/))
+[slides](http://www.slideshare.net/jezhumble/lean-enterprise-42651898) &#124; [video](https://yow.eventer.com/yow-2014-1222/the-lean-enterprise-by-jez-humble-1696) (50m) &#124; [video](http://yow.eventer.com/events/1004/talks/1062) (1h40m with [Gary Gruver](http://practicallargescaleagile.com/))
 
 Large organizations often struggle to leverage software to create innovative products. This is due to a number of organizational factors, including culture, governance and financial management, and the application of portfolio and program management strategies that do not take advantage of the unique characteristics of software. This talk discusses how to take a lean approach to developing new products and running large scale programs of work, and how to grow a culture that enables organizations to turn software into a competitive advantage.
 
 ### Remediation Patterns ###
 
-[slides](http://www.slideshare.net/jezhumble/remediation-patterns) | [video](http://www.infoq.com/presentations/Remediation-Patterns)
+[slides](http://www.slideshare.net/jezhumble/remediation-patterns) &#124; [video](http://www.infoq.com/presentations/Remediation-Patterns)
 
 Deployments gone bad are a leading cause of spending your evening or weekend hunched over a terminal instead of outdoors having fun. In this talk I’ll present a number of patterns which reduce the risk of releases, including techniques for zero-downtime releases, roll backs, and roll forwards.
 
@@ -33,7 +33,7 @@ I’ll also discuss how to build reliable releases into your delivery process us
 
 ### Enterprise DevOps: Breaking Down the Barriers between Development and IT Operations ###
 
-[slides](http://www.slideshare.net/jezhumble/scaling-devops) | [video](http://www.infoq.com/presentations/Scaling-Devops)
+[slides](http://www.slideshare.net/jezhumble/scaling-devops) &#124; [video](http://www.infoq.com/presentations/Scaling-Devops)
 
 Agile processes were originally designed to break down the barriers among users, programmers, and testers. Now, DevOps—an emerging set of principles and practices for communication, collaboration, and integration between development and IT operations—seeks to break down the development/operations barriers. By applying agile principles to operations and re-architecting the interfaces between these groups, DevOps empowers organizations to deliver high-value software faster and with fewer errors. In this presentation I will describe how to implement DevOps practices in large enterprises—and small organizations.
 
@@ -41,31 +41,31 @@ Starting with an investigation of the crisis facing large IT departments, I’ll
 
 ### Creating Maintainable Automated Acceptance Tests ###
 
-[slides](http://www.slideshare.net/jezhumble/creating-maintainable-automated-acceptance-tests) | [video](http://www.youtube.com/watch?v=X9ap-zH0Gkc)
+[slides](http://www.slideshare.net/jezhumble/creating-maintainable-automated-acceptance-tests) &#124; [video](http://www.youtube.com/watch?v=X9ap-zH0Gkc)
 
 Creating automated end-to-end functional acceptance tests is hard. Maintaining them over time is harder. Some agilistas even claim that the cost outweighs the benefit. In this lecture we present five principles for creating valuable, maintainable acceptance test suites. We discuss practices such as layering acceptance tests to reduce coupling between the test harness, and talk about how teams should be organized in order to efficiently manage acceptance test driven development. The core of the talk discusses how to manage the evolution of acceptance tests by organizing them as scenarios rather than as suites of story tests. Finally we show how to manage data for acceptance tests.
 
 ### What is Value? ###
 
-[slides](http://www.slideshare.net/jezhumble/what-is-value) | [video](http://www.youtube.com/watch?v=ESOaDiv3lXA)
+[slides](http://www.slideshare.net/jezhumble/what-is-value) &#124; [video](http://www.youtube.com/watch?v=ESOaDiv3lXA)
 
 The concept of “value” is central to agile and lean software development – but how do we decide what is valuable, and on what basis? I argue that we need to rethink the role of product owner, discarding pointless activities such as estimation. Determining value is the responsibility of everyone – not just the “product owner”. In order to deliver value we must be able to measure it transparently, and establish a fast feedback loop so teams can quickly determine if what they doing is in fact valuable. In this talk I will discuss several approaches to measuring value, how to maximize creating it, and how doing so affects the way teams work.
 
 ### Adopting Continuous Delivery ###
 
-[slides](http://www.slideshare.net/jezhumble/adopting-continuous-delivery) | [video](http://www.infoq.com/presentations/Adopting-Continuous-Delivery)
+[slides](http://www.slideshare.net/jezhumble/adopting-continuous-delivery) &#124; [video](http://www.infoq.com/presentations/Adopting-Continuous-Delivery)
 
 While keeping software production ready throughout its lifecycle and optimizing your delivery process for shorter cycle times might seem like a good idea to you, the rest of your organization might not share your excitement. In this talk, I share stories from companies who have attempted to adopt continuous delivery and discusses the organizational, architectural and process factors that led to the success – or failure – of these initiatives.
 
 ### Stop Hiring Devops Experts (And Start Growing Them) ###
 
-[slides](http://www.slideshare.net/jezhumble/stop-hiring-devops-experts-and-start-growing-them) | [video](http://puppetlabs.com/presentations/keynote-stop-hiring-devops-experts-and-start-growing-them)
+[slides](http://www.slideshare.net/jezhumble/stop-hiring-devops-experts-and-start-growing-them) &#124; [video](http://puppetlabs.com/presentations/keynote-stop-hiring-devops-experts-and-start-growing-them)
 
 Everyone is putting “devops” on their LinkedIn profile, and everyone is trying to hire them. In this talk, Jez will argue this is not a recruitment problem but an organizations failure. This talk discusses how to grow great people and great organizations, and how the two problems are connected.
 
 ### How to Fuck Up Respect for People and Really Piss Off your Employees ###
 
-[slides](http://www.slideshare.net/jezhumble/how-to-fuck-up-respect-for-people-and-really-piss-off-your-employees) | [video](https://vimeo.com/127084504)
+[slides](http://www.slideshare.net/jezhumble/how-to-fuck-up-respect-for-people-and-really-piss-off-your-employees) &#124; [video](https://vimeo.com/127084504)
 
 The DevOps movement emphasizes the importance of culture in creating high performing teams. However culture is often perceived to be subjective and intractable, and is often neglected in favour of more concrete topics such as tools and processes. This is a major failure mode in organizations attempting to achieve substantially improved performance through implementing agile and devops. In this talk, Jez Humble takes a practical, data-driven approach to culture, illustrated by examples from large, successful enterprises. You’ll learn how to measure culture, and what a generative, high performance culture looks like. Crucially, you’ll also discover how to change organizational culture, and how the patterns and practices of continuous delivery and lean management are used by high performing organizations to outcompete their peers.
 
@@ -77,6 +77,6 @@ For many years software engineering meant delivering software the way we constru
 
 ### Lean Configuration Management ###
 
-[slides](http://www.slideshare.net/jezhumble/lean-configuration-management) | [video](https://www.youtube.com/watch?v=L1w2_AY82WY)
+[slides](http://www.slideshare.net/jezhumble/lean-configuration-management) &#124; [video](https://www.youtube.com/watch?v=L1w2_AY82WY)
 
 Configuration management is an essential ingredient in creating high performance IT. But how you implement it matters. In this talk Jez will present the principles that enable high throughput and stability and the configuration management practices behind then, using models drawn from the Lean movement.
