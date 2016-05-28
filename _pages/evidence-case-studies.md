@@ -96,7 +96,7 @@ Suncorp's [2014 annual report](http://bit.ly/1v73OC3) notes that "simplification
 For more on this case study, check out John Kordyback's 30m
 presentation [From Mainframes to Continuous Delivery in 1,000 Easy Steps](https://www.youtube.com/watch?v=eMS97X5ZTGc).
 
-###Research###
+### Research ###
 
 Nicole Forsgren, Gene Kim and I have a [research program](http://devops-research.com/) investigating
 IT performance and the factors that contribute to it. We've gathered
