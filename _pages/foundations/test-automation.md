@@ -69,7 +69,7 @@ script that stands up an exploratory testing envrionment, and thread
 them together. Then increase test coverage and extend your deployment
 pipeline as your product or service evolves.
 
-###Resources###
+### Resources ###
 
 * A [1h video](https://www.youtube.com/watch?v=X9ap-zH0Gkc) in which [Badri Janakiraman](https://twitter.com/badrij) and I discuss how to create maintainable suites of automated acceptance test
 
@@ -98,17 +98,16 @@ her awesome 30m talk [On the Care and Feeding of Feedback Cycles](https://www.yo
   [discusses the Test Pyramid and its evil twin, the ice cream cone](http://martinfowler.com/bliki/TestPyramid.html)
   on his bliki.
 
-###FAQ###
+### FAQ ###
 
-*Does continuous delivery mean firing all our manual testers?*
+*Does continuous delivery mean firing all our testers?*
 
-No. Manual testers have a unique perspective on the system---they
-understand how users interact with it. I recommend having manual
-testers pair alongside developers (in person) to help them create and evolve the
+No. Testers have a unique perspective on the system---they
+understand how users interact with it. I recommend having testers pair alongside developers (in person) to help them create and evolve the
 suites of automated tests. This way, developers get to understand the
 testers' perspective, and testers can start to learn test
-automation. Manual testers should also be performing _exploratory
-testing_ as part of their work. Certainly, manual testers will have to learn new
+automation. Testers should also be performing _exploratory
+testing_ continuously as part of their work. Certainly, testers will have to learn new
 skills---but that is true of anybody working in our industry.
 
 *Should we be automating all of our tests?*

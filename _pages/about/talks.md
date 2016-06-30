@@ -4,7 +4,7 @@ title: Talks
 
 I've given a lot of talks on continuous delivery over the years. Some of them are included in this guide. You can find a list of some of the main ones below. I accept very few speaking engagements these days because of my work commitments, but I do occasionally speak at conferences and at companies (at my consulting day rate).
 
-###Biography###
+### Biography ###
 
 <img src="/images/jez.jpeg" width="150px" style="padding:10px;float:left;" />
 Jez Humble is co-author of the Jolt Award winning <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>, published in Martin Fowler’s Signature Series (Addison Wesley, 2010), and <a href="http://www.amazon.com/dp/1449368425?tag=contindelive-20">Lean Enterprise</a>, in Eric Ries’ Lean series (O'Reilly, 2015). He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents. He is currently researching how to build high performing teams, and helping to create a cloud platform for government. He works at <a href="http://18f.gsa.gov">18F</a>, <a href="http://www.ischool.berkeley.edu/people/faculty/jezhumble">teaches at UC Berkeley</a>, and is co-founder of <a href="https://devops-research.com">DevOps Research and Assessment LLC</a>.
@@ -22,6 +22,14 @@ I’ll start by discussing the value of CD to the business, inspired by the lean
 [slides](http://www.slideshare.net/jezhumble/lean-enterprise-42651898) &#124; [video](https://yow.eventer.com/yow-2014-1222/the-lean-enterprise-by-jez-humble-1696) (50m) &#124; [video](http://yow.eventer.com/events/1004/talks/1062) (1h40m with [Gary Gruver](http://practicallargescaleagile.com/))
 
 Large organizations often struggle to leverage software to create innovative products. This is due to a number of organizational factors, including culture, governance and financial management, and the application of portfolio and program management strategies that do not take advantage of the unique characteristics of software. This talk discusses how to take a lean approach to developing new products and running large scale programs of work, and how to grow a culture that enables organizations to turn software into a competitive advantage.
+
+### Why Scaling Agile Doesn't Work ###
+
+[slides](http://www.slideshare.net/jezhumble/why-scaling-agile-doesnt-work-and-what-to-do-about-it) &#124; [video](https://www.youtube.com/watch?v=2zYxWEZ0gYg) (50m)
+
+There are now several frameworks designed to address the demand for "big agile."
+
+In this talk Jez will explain the flaws in such frameworks, why they so often fail to produce the desired effects, and what we should do instead. He will also address some common organizational obstacles to moving fast at scale: governance, budgeting, and the project paradigm - and discuss how to address them. Warning: this talk will include liberal use of real, statistically sound data.
 
 ### Remediation Patterns ###
 

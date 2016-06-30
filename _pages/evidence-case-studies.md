@@ -102,8 +102,8 @@ Nicole Forsgren, Gene Kim and I have a [research program](http://devops-research
 IT performance and the factors that contribute to it. We've gathered
 data for several years as part of the annual PuppetLabs / DevOps
 Research and Assessment State of DevOps Report. The
-[2014](http://bit.ly/2015-devops-report) and
-[2015](http://bit.ly/2015-devops-report) reports are free to download
+[2014](http://bit.ly/2015-devops-report),
+[2015](http://bit.ly/2015-devops-report) and [2016](http://bit.ly/2016-devops-report) reports are free to download
 (registration required). Key results include:
 
 * Firms with high-performing IT organizations were twice as likely to

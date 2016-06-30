@@ -15,7 +15,7 @@ delivery---tools, architecture, practices, politics---if you find
 yourself lost, try revisiting these principles and you may find it
 helps you refocus on what's important.
 
-###Build Quality In###
+### Build Quality In ###
 
 W. Edwards Deming, a key figure in the history of the Lean movement,
 offered [14 key principles](https://www.deming.org/theman/theories/fourteenpoints) for management. Principle 3 states, "Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass basis by building quality into the product in the first place."
@@ -35,7 +35,7 @@ but then ask: How could we have caught the problem with an automated
 acceptance test? When an acceptance test fails, we should ask: Could
 we have written a unit test to catch this problem?
 
-###Work in Small Batches###
+### Work in Small Batches ###
 
 In traditional phased approaches to software development, handoffs
 from dev to test or test to IT operations consist of whole releases:
@@ -57,7 +57,7 @@ the economics of the software delivery process to make it economically
 viable to work in small batches so we can obtain the many benefits of
 this approach.
 
-###Computers Perform Repetitive Tasks, People Solve Problems###
+### Computers Perform Repetitive Tasks, People Solve Problems ###
 
 One of the earliest philosophical ideas of the Toyota tradition is
 [jidoka](http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/jidoka.html),
@@ -73,7 +73,7 @@ focus on higher value activities. This also has the benefit of
 improving quality, since humans are at their most error-prone when
 performing mindless tasks.
 
-###Relentlessly Pursue Continuous Improvement###
+### Relentlessly Pursue Continuous Improvement ###
 
 Continuous improvement, or _kaizen_ in Japanese, is another key idea
 from the Lean movement. Taiichi Ohno, a key figure in the history
@@ -88,7 +88,7 @@ organizations are those where everybody treats improvement work as an
 essential part of their daily work, and where nobody is satisfied with
 the status quo.
 
-###Everyone is Responsible###
+### Everyone is Responsible ###
 
 In high performing organizations, nothing is "somebody else's
 problem." Developers are responsible for the quality and stability of
