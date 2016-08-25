@@ -70,7 +70,7 @@ in build, test, deployment and environment automation, we
   [hypothesis-driven approach to product development](https://www.thoughtworks.com/insights/blog/how-implement-hypothesis-driven-development) whereby we can
   test ideas with users before building out whole features. This
   means we can avoid the [2/3 of features we build that deliver zero or
-  negative value](stanford.io/130uW6X) to our businesses.
+  negative value](http://stanford.io/130uW6X) to our businesses.
 
 * __Happier teams__. [Peer-reviewed research](/evidence-case-studies/#research) has shown continuous
   delivery makes releases less painful and reduces team
