@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jezhumble/guides-style.git
-  revision: c87675bf66bb6333cc34f2c08bc327d832bf8096
+  revision: 2b74129e904ce3006fda8c678a6863a0641de29d
   specs:
     guides_style_cd (0.3.0)
       jekyll
