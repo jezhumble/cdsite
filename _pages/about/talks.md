@@ -9,6 +9,20 @@ I've given a lot of talks on continuous delivery over the years. Some of them ar
 <img src="/images/jez.jpeg" width="150px" style="padding:10px;float:left;" />
 Jez Humble is co-author of <a href="http://www.amazon.com/dp/1942788002?tag=contindelive-20">The DevOps Handbook</a>, <a href="http://www.amazon.com/dp/1449368425?tag=contindelive-20">Lean Enterprise</a>, and the Jolt Award winning <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>. He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents. He is currently researching how to build high performing teams, and helping to create a cloud platform for government. He works at <a href="http://18f.gsa.gov">18F</a>, <a href="http://www.ischool.berkeley.edu/people/faculty/jezhumble">teaches at UC Berkeley</a>, and is co-founder of <a href="https://devops-research.com">DevOps Research and Assessment LLC</a>.
 
+### Continuous Delivery Sounds Great But It Won't Work Here ###
+
+[slides](http://www.slideshare.net/jezhumble/continuous-delivery-sounds-great-but-it-wont-work-here) &#124; [video](https://vimeo.com/193849732) (55m)
+
+Since the Continuous Delivery book came out in 2010, it’s gone from being a controversial idea to a commonplace... until you consider that many people who say they are doing it aren’t really, and there are still plenty of places that consider it crazy talk. In this session Jez will present some of the highlights and lowlights of the past six years listening to people explain why continuous delivery won’t work, and what he learned in the process.
+
+### Why Scaling Agile Doesn't Work ###
+
+[slides](http://www.slideshare.net/jezhumble/why-scaling-agile-doesnt-work-and-what-to-do-about-it) &#124; [video](https://www.youtube.com/watch?v=2zYxWEZ0gYg) (50m)
+
+There are now several frameworks designed to address the demand for "big agile."
+
+In this talk Jez will explain the flaws in such frameworks, why they so often fail to produce the desired effects, and what we should do instead. He will also address some common organizational obstacles to moving fast at scale: governance, budgeting, and the project paradigm - and discuss how to address them. Warning: this talk will include liberal use of real, statistically sound data.
+
 ### Continuous Delivery ###
 
 [slides](http://www.slideshare.net/jezhumble/continuous-delivery-5359386) &#124; [video](http://www.youtube.com/watch?v=skLJuksCRTw) &#124; [video (with Martin Fowler)](http://yow.eventer.com/events/1004/talks/1062)
@@ -22,14 +36,6 @@ I’ll start by discussing the value of CD to the business, inspired by the lean
 [slides](http://www.slideshare.net/jezhumble/lean-enterprise-42651898) &#124; [video](https://yow.eventer.com/yow-2014-1222/the-lean-enterprise-by-jez-humble-1696) (50m) &#124; [video](http://yow.eventer.com/events/1004/talks/1062) (1h40m with [Gary Gruver](http://practicallargescaleagile.com/))
 
 Large organizations often struggle to leverage software to create innovative products. This is due to a number of organizational factors, including culture, governance and financial management, and the application of portfolio and program management strategies that do not take advantage of the unique characteristics of software. This talk discusses how to take a lean approach to developing new products and running large scale programs of work, and how to grow a culture that enables organizations to turn software into a competitive advantage.
-
-### Why Scaling Agile Doesn't Work ###
-
-[slides](http://www.slideshare.net/jezhumble/why-scaling-agile-doesnt-work-and-what-to-do-about-it) &#124; [video](https://www.youtube.com/watch?v=2zYxWEZ0gYg) (50m)
-
-There are now several frameworks designed to address the demand for "big agile."
-
-In this talk Jez will explain the flaws in such frameworks, why they so often fail to produce the desired effects, and what we should do instead. He will also address some common organizational obstacles to moving fast at scale: governance, budgeting, and the project paradigm - and discuss how to address them. Warning: this talk will include liberal use of real, statistically sound data.
 
 ### Remediation Patterns ###
 

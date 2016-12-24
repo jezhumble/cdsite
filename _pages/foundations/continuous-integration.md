@@ -30,7 +30,7 @@ Despite these barriers, helping software development teams implement continuous 
 
 *How do I know if my team is really doing CI?*
 
-I have a simple test I use to determine if teams are really practicing CI. 1) are all the engineers pushing their code into trunk / master (not feature branches) on a daily basis? 2) does every commit trigger a run of the unit tests? 3) When the build is broken, is it typically fixed within 10 minutes? If you can answer yes to all three questions, congratulations! You are practicing continuous integration. Note that it's entirely possible to do CI without using a CI tool, and conversely, _just because you're using a CI tool does not mean you are doing CI!_
+I have a simple test I use to determine if teams are really practicing CI. 1) are all the engineers pushing their code into trunk / master (not feature branches) on a daily basis? 2) does every commit trigger a run of the unit tests? 3) When the build is broken, is it typically fixed within 10 minutes? If you can answer yes to all three questions, congratulations! You are practicing continuous integration. In my experience, less than 20% of teams that think they are doing CI can actually pass the test. Note that it's entirely possible to do CI without using a CI tool, and conversely, _just because you're using a CI tool does not mean you are doing CI!_
 
 *Don't modern tools such as Git make CI unnecessary?*
 
