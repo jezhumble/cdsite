@@ -2,12 +2,7 @@
 title: Talks
 ---
 
-I've given a lot of talks on continuous delivery over the years. Some of them are included in this guide. You can find a list of some of the main ones below. I accept very few speaking engagements these days because of my work commitments, but I do occasionally speak at conferences and at companies (at my consulting day rate).
-
-### Biography ###
-
-<img src="/images/jez.jpeg" width="150px" style="padding:10px;float:left;" />
-Jez Humble is co-author of <a href="http://www.amazon.com/dp/1942788002?tag=contindelive-20">The DevOps Handbook</a>, <a href="http://www.amazon.com/dp/1449368425?tag=contindelive-20">Lean Enterprise</a>, and the Jolt Award winning <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>. He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents. He is currently researching how to build high performing teams, and helping to create a cloud platform for government. He works at <a href="http://18f.gsa.gov">18F</a>, <a href="http://www.ischool.berkeley.edu/people/faculty/jezhumble">teaches at UC Berkeley</a>, and is co-founder of <a href="https://devops-research.com">DevOps Research and Assessment LLC</a>.
+Here's a list of some of the talks I've given over the years, with links to video recordings and slides. All my material is licensed [Creative Commons Attribution Share-Alike](https://creativecommons.org/licenses/by-sa/3.0/us/). You can [hire me](/about/workshops) to give one of these talks at your company.
 
 ### Continuous Delivery Sounds Great But It Won't Work Here ###
 

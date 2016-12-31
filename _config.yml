@@ -77,6 +77,9 @@ navigation:
   - text: Talks
     url: talks/
     internal: true
+  - text: Workshops
+    url: workshops/
+    internal: true
 
 repos:
 - name: Continuous Delivery
