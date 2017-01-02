@@ -4,9 +4,11 @@ title: Workshops
 
 You can hire me to come to your company and give one of the three workshops below, or to give one or more of my [talks](/about/talks). My day rate is US$22,000 within the USA, or US$30,000 for other countries, including all expenses. If you're interested, email me at humble@acm.org.
 
+If you're interested in assessing how well your company is doing at implementing DevOps and Continuous Delivery, head over to [DevOps Research and Assessment LLC](https://devops-research.com/).
+
 ### Foundations of DevOps and Continuous Delivery
 
-This is workshop aimed at a general audience: developers, testers, systems administrators, and managers. Up to 100 people can participate. There is no coding involved. It is an in-person version of my [video training](http://www.informit.com/store/continuous-delivery-livelessons-video-training-downloadable-9780134390710).
+This workshop is aimed at a general audience: developers, testers, systems administrators, and managers. Up to 100 people can participate. There is no coding involved. It is an in-person version of my [video training](http://www.informit.com/store/continuous-delivery-livelessons-video-training-downloadable-9780134390710).
 
 *Overview*: Getting software released to users is often a painful, risky, and time-consuming process. The practice of continuous delivery sets out the principles and technical practices that enable rapid, low-risk delivery of high quality, valuable new functionality to users. Through automation of the build, deployment, and testing process, and improved collaboration between developers, testers and IT operations, teams can get changes released in a matter of hours—sometimes even minutes—no matter what the size of the product or the complexity of the enterprise environment.
 
