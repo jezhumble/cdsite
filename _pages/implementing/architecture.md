@@ -2,7 +2,7 @@
 title: Architecture
 ---
 
-In the context of enterprise architecture there are typically multiple attributes we are concerned about, for example availability, security, performance, security, usability and so forth. In continuous delivery, we introduce two new architectural attributes: testability and deployability.
+In the context of enterprise architecture there are typically multiple attributes we are concerned about, for example availability, security, performance, usability and so forth. In continuous delivery, we introduce two new architectural attributes: testability and deployability.
 
 In a _testable_ architecture, we design our software such that most defects can (in principle, at least) be discovered by developers by running automated tests on their workstations. We shouldn't need to depend on complex, integrated environments in order to do the majority of our acceptance and regression testing.
 
@@ -16,7 +16,7 @@ We can define a well-designed modular architecture as one in which it is possibl
 
 In order to aid the independent deployment of components, we will also invest in creating versioned APIs which have backwards compatibility. Ensuring backwards compatibility for APIs adds complexity to our systems, but the flexibility we gain in terms of ease of deployment will pay this off many times over.
 
-Any true service-oriented architecture _should_ have these properties---but unfortunately many do not. However the microservices movement has explicitly prioritized these architectural properties.
+Any true service-oriented architecture _should_ have these properties---but unfortunately many do not. However, the microservices movement has explicitly prioritized these architectural properties.
 
 ### Evolutionary architecture ###
 
