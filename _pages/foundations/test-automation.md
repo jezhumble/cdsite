@@ -16,7 +16,7 @@ bottleneck that prevents us releasing software more frequently, and
 getting feedback to developers weeks (and sometimes months) after they
 wrote the code being tested.
 * Manual tests and inspections are not very reliable, since people are notoriously poor at
-  performing repetative tasks such as regression testing manually, and
+  performing repetitive tasks such as regression testing manually, and
   it is extremely hard to predict the impact of a set of changes on a
   complex software system through inspection.
 * When systems are evolving over time, as is the case in modern
@@ -24,8 +24,8 @@ wrote the code being tested.
   updating test documentation to keep it up-to-date.
 
 In order to build quality in to software, we need to adopt a different
-approach. Our goal is to run many different types of tests---both
-manual and automated---_continually_ throughout the delivery process. The types of tests we
+approach. Our goal is to run many different types of tests&mdash;both
+manual and automated&mdash;_continually_ throughout the delivery process. The types of tests we
 want to run are nicely laid out the quadrant diagram created by Brian
 Marick, below:
 
@@ -57,7 +57,7 @@ our pipeline, perhaps adding or updating some tests.
 Our goal should be to find problems as soon as possible, and make the
 lead time from check-in to release as short as possible. Thus we want
 to parallelize the activities in the deployment pipeline, not have
-many, many stages executing in series. There is also a feedback
+many stages executing in series. There is also a feedback
 process: if we discover bugs in exploratory testing, we should be
 looking to improve our automated tests. If we discover a defect in the
 acceptance tests, we should be looking to improve our unit tests (most

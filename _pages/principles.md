@@ -18,7 +18,7 @@ helps you refocus on what's important.
 ### Build Quality In ###
 
 W. Edwards Deming, a key figure in the history of the Lean movement,
-offered [14 key principles](https://www.deming.org/theman/theories/fourteenpoints) for management. Principle 3 states, "Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass basis by building quality into the product in the first place."
+offered [14 key principles](https://www.deming.org/theman/theories/fourteenpoints) for management. Principle three states, "Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass basis by building quality into the product in the first place."
 
 It's much cheaper to fix problems and defects if we find them
 immediately---ideally before they are ever checked into version
@@ -49,7 +49,7 @@ we can, getting comprehensive feedback as rapidly as possible.
 Working in small batches has many benefits. It reduces the time it
 takes to get feedback on our work, makes it easier to triage and
 remediate problems, increases efficiency and motivation, and prevents
-us succumbing to the sunk cost fallacy.
+us from succumbing to the sunk cost fallacy.
 
 The reason we work in large batches is because of the large fixed cost
 of handing off changes. A key goal of continuous delivery is to change
@@ -105,6 +105,6 @@ writing more code, and rewarding testers based on the number of bugs
 they find.
 
 Most people want to do the right thing, but they will adapt their
-behaviour based on how they are rewarded. Thus the importance of
-creating fast feedback loops from the things that really matter: how
+behaviour based on how they are rewarded. Therefore, it is very important to
+create fast feedback loops from the things that really matter: how
 customers react to what we build for them, and the impact on our organization.

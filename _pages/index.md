@@ -44,7 +44,7 @@ zero-downtime deployments that are undetectable to users.
   consume weeks or even months. When teams work together to automate
   the build and deployment,  environment  provisioning, and regression
   testing processes, developers can incorporate integration and
-  regression testing into their daily work and we completely remove
+  regression testing into their daily work and completely remove
   these phases. We also avoid the large amounts of re-work that plague
   the phased approach.
 
@@ -75,13 +75,13 @@ in build, test, deployment and environment automation, we
 * __Happier teams__. [Peer-reviewed research](/evidence-case-studies/#research) has shown continuous
   delivery makes releases less painful and reduces team
   burnout. Furthermore, when we release more frequently, software
-  delivery teams can engage more actively with users, learning which
-  ideas work and which don't, and seeing first-hand the outcomes of the
+  delivery teams can engage more actively with users, learn which
+  ideas work and which don't, and see first-hand the outcomes of the
   work they have done. By removing the low-value painful activities
   associated with software delivery, we can focus on what we care
   about most---continuously delighting our users.
 
-If this sounds good to be true, bear in mind: continuous delivery is not
+If this sounds too good to be true, bear in mind: continuous delivery is not
 magic. It's about continuous, daily improvement---the constant discipline of
 pursuing higher performance by following the heuristic "if it hurts,
 do it more often, and bring the pain forward."
