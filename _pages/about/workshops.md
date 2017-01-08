@@ -16,7 +16,7 @@ This workshop is aimed at a general audience: developers, testers, systems admin
 
 ### High Performance Product Development
 
-This workshop can accommodate up to 30 participants.
+This workshop can accommodate up to 30 participants. This workshop is derived from <a href="https://leanagile.pm">a graduate-level class on lean/agile product management</a> that <a href="https://www.ischool.berkeley.edu/courses/info/290m-3">I teach at UC Berkeley</a> (class material is licensed Creative Commons).
 
 *Overview*: Large organizations often struggle to leverage software to create innovative products. A number of organizational factors conspire to create obstacles to moving fast at scale, including culture, governance, and financial management, and the application of portfolio and program management strategies that do not take advantage of the unique characteristics of software.
 
@@ -31,7 +31,7 @@ This workshop can accommodate up to 30 participants.
 
 ### Deploying Cloud Native Systems with Terraform and AWS
 
-This is a hands-on-keyboards workshop for a technical audience, which accommodates up to 20 people.
+This is a hands-on-keyboards workshop for a technical audience, which accommodates up to 20 people. The <a href="https://github.com/18F/cloud-native-aws-terraform-workshop">class material</a> is in the public domain.
 
 In the class, participants will learn:
 
