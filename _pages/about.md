@@ -17,7 +17,7 @@ Jez Humble is co-author of <a href="http://www.amazon.com/dp/1942788002?tag=cont
 
 ### Disclosures ###
 
-I work for the US federal government at 18F (a unit of the General Services Administration) and at the University of California, Berkeley. This site is not maintained as part of my official work duties, and is not endorsed by either institution. I also derive income from [DevOps Research and Assessment, LLC](http://devops-research.com/), which I co-founded, as well as from royalties from my books and related content. If you buy my stuff via the links on this site, I get a cut from the vendor, whether Amazon or InformIT. I hold some stock options in Chef Software as a result of my previous employment there. Apart from that, my investments are all in wide-ranging mutual funds.
+I work at the University of California, Berkeley. This site is not maintained as part of my official work duties, and is not endorsed by UC Berkeley. I also derive income from [DevOps Research and Assessment, LLC](http://devops-research.com/), which I co-founded, as well as from royalties from my books and related content. If you buy my stuff via the links on this site, I get a cut from the vendor, whether Amazon or InformIT. I hold some stock options in Chef Software as a result of my previous employment there. Apart from that, my investments are all in wide-ranging mutual funds.
 
 ### A note on contacting me ###
 
