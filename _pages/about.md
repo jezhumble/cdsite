@@ -21,4 +21,4 @@ I work at the University of California, Berkeley. This site is not maintained as
 
 ### A note on contacting me ###
 
-The best way to reach me is by email at humble@acm.org, but unfortunately due to the large amount of email I receive I can't guarantee a timely response. I allocate a fixed amount of time to dealing with email, with the result that my backlog is long and growing. I apologize in advance.
+The best way to reach me is by email at humble@acm.org, but unfortunately due to the large amount of email I receive I'm afraid I can't guarantee a timely response, or indeed any response at all unless your query is short and has a simple yes/no answer. In particular, I have learned from experience not to offer advice over the internet. If you're not sure how to proceed, I have two pieces of general advice: first, work from [first principles](https://continuousdelivery.com/principles/). Second, apply the scientific method: Mike Rother's [Improvement Kata](http://www-personal.umich.edu/~mrother/Homepage.html) is an excellent resource.
