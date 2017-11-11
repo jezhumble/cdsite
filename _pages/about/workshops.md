@@ -6,6 +6,8 @@ You can hire me to come to your company and give one of the three workshops belo
 
 If you're interested in assessing how well your company is doing at implementing DevOps and Continuous Delivery, head over to [DevOps Research and Assessment LLC](https://devops-research.com/).
 
+In addition to my industry work, I also teach a class on lean/agile product management at UC Berkeley's <a href="https://ischool.berkeley.edu">School of Information</a>. You can find my class materials <a href="https://leanagile.pm">here</a>.
+
 ### Foundations of DevOps and Continuous Delivery
 
 This workshop is aimed at a general audience: developers, testers, systems administrators, and managers. Up to 100 people can participate. There is no coding involved. It is an in-person version of my [video training](http://www.informit.com/store/continuous-delivery-livelessons-video-training-downloadable-9780134390710).

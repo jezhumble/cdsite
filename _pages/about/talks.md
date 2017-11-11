@@ -4,6 +4,8 @@ title: Talks
 
 Here's a selection from the talks I've given over recent years, with links to video recordings and slides. All my material is licensed [Creative Commons Attribution Share-Alike](https://creativecommons.org/licenses/by-sa/3.0/us/). You can [hire me](/about/workshops) to give one of these talks at your company.
 
+In addition to my industry work, I also teach a class on lean/agile product management at UC Berkeley's <a href="https://ischool.berkeley.edu">School of Information</a>. You can find my class materials <a href="https://leanagile.pm">here</a>.
+
 ### Continuous Delivery Sounds Great But It Won't Work Here ###
 
 [slides](https://speakerdeck.com/jezhumble/continuous-delivery-sounds-great-but-it-wont-work-here) &#124; [video](https://vimeo.com/193849732) (55m)
@@ -35,6 +37,12 @@ Going cloud native in a highly regulated context presents challenges of its own.
 [slides](https://speakerdeck.com/jezhumble/the-devops-transformation) &#124; [video](https://www.youtube.com/watch?v=Y4H8dW7Ium8) (45m)
 
 DevOps promises to transform the way we work. By creating reliable, secure distributed systems that can also be rapidly evolved in response to user feedback, we can create lasting competitive advantage. In this talk Jez will describe how to implement devops principles and practices, how to overcome typical obstacles, and the outcomes DevOps enables.
+
+### What We Learned from Four Years of Sciencing the Crap Out of DevOps ###
+
+[slides](https://www.slideshare.net/ITRevolution/nicole-forsgren-jez-humble) &#124; [video](https://www.youtube.com/watch?v=G3b_eOK_Ejo&t=2s) (25m with [Nicole Forsgren](http://nicolefv.com/))
+
+For years we laboured under the misapprehension that going faster meant breaking things. After several years of science-ing, Nicole and Jez have identified the key elements that enable not just higher throughput but also higher stability and quality, lower cost, and happier teams. Discover how continuous delivery and lean management practices produce higher IT performance (and indeed what we might mean by performance), along with how to measure culture and its impact on IT and organizational culture. Find out how we actually ensure our results are reliable and meaningful. Learn the patterns and practices used by high performing organizations to outcompete their peers.
 
 ### 21st Century Software Delivery ###
 
