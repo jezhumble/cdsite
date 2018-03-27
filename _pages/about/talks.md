@@ -22,7 +22,7 @@ In this talk Jez will explain the flaws in such frameworks, why they so often fa
 
 ### Leading a DevOps Transformation ###
 
-[slides](https://speakerdeck.com/jezhumble/leading-a-devops-transformation) | [video](https://www.youtube.com/watch?v=7anxCh-gUWo)
+[slides](https://speakerdeck.com/jezhumble/leading-a-devops-transformation) &#124; [video](https://www.youtube.com/watch?v=7anxCh-gUWo)
 
 Implementing DevOps is more than just implementing tools. It requires thinking – and acting – differently about everything from budgeting and program management to architecture and compliance. In this talk, Jez presents what DevOps is and, just as importantly, what it isn’t from the leadership perspective, and takes you through the journey you’ll need to embark on in order to achieve the outcomes DevOps promises.
 
