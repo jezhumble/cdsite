@@ -20,6 +20,12 @@ There are now several frameworks designed to address the demand for "big agile."
 
 In this talk Jez will explain the flaws in such frameworks, why they so often fail to produce the desired effects, and what we should do instead. He will also address some common organizational obstacles to moving fast at scale: governance, budgeting, and the project paradigm - and discuss how to address them. Warning: this talk will include liberal use of real, statistically sound data.
 
+### Leading a DevOps Transformation ###
+
+[slides](https://speakerdeck.com/jezhumble/leading-a-devops-transformation) | [video](https://www.youtube.com/watch?v=7anxCh-gUWo)
+
+Implementing DevOps is more than just implementing tools. It requires thinking – and acting – differently about everything from budgeting and program management to architecture and compliance. In this talk, Jez presents what DevOps is and, just as importantly, what it isn’t from the leadership perspective, and takes you through the journey you’ll need to embark on in order to achieve the outcomes DevOps promises.
+
 ### Architecting for Continuous Delivery ###
 
 [slides](https://speakerdeck.com/jezhumble/architecting-for-continuous-delivery)

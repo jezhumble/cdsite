@@ -18,7 +18,7 @@ helps you refocus on what's important.
 ### Build Quality In ###
 
 W. Edwards Deming, a key figure in the history of the Lean movement,
-offered [14 key principles](https://www.deming.org/theman/theories/fourteenpoints) for management. Principle three states, "Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass basis by building quality into the product in the first place."
+offered [14 key principles](https://deming.org/explore/fourteen-points) for management. Principle three states, "Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass basis by building quality into the product in the first place."
 
 It's much cheaper to fix problems and defects if we find them
 immediately---ideally before they are ever checked into version
