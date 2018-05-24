@@ -12,7 +12,7 @@ Dave Farley is co-author of the original continuous delivery book. He has a [blo
 
 ### Biography ###
 
-<img src="/images/jez.jpeg" width="150px" style="padding:10px;float:left;" />
+<a href="/images/jez_new.jpg"><img src="/images/jez_new.jpg" width="120px" style="padding-right:10px;float:left;" /></a>
 Jez Humble is co-author of <a href="https://bit.ly/accelerate-jez">Accelerate</a>, <a href="http://www.amazon.com/dp/1942788002?tag=contindelive-20">The DevOps Handbook</a>, <a href="http://www.amazon.com/dp/1449368425?tag=contindelive-20">Lean Enterprise</a>, and the Jolt Award winning <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>. He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents, most recently working for the US Federal Government at [18F](https://18f.gsa.gov). He is currently researching how to build high performing teams at his startup, [DevOps Research and Assessment LLC](https://devops-research.com/), and [teaching at UC Berkeley](http://www.ischool.berkeley.edu/people/faculty/jezhumble).
 
 ### Disclosures ###
