@@ -2,9 +2,7 @@
 title: About
 ---
 
-This site is maintained by Jez Humble. You can hire me to give [workshops](/about/workshops) or [talks](/about/talks) on a variety of topics including continuous delivery, product management, organizational culture, software engineering, and the lean/agile paradigm.
-
-The source code for this site is available at [GitHub](https://github.com/jezhumble/cdsite). If you have suggestions on how to improve it, please [create an issue](https://github.com/jezhumble/cdsite/issues). This website is based on Jekyll, and the template is modified from the [18F template](https://pages.18f.gov/guides-template/). You can find copyright and license information in the footer at the bottom of this page.
+This site is maintained by Jez Humble. The source code for this site is available at [GitHub](https://github.com/jezhumble/cdsite). If you have suggestions on how to improve it, please [create an issue](https://github.com/jezhumble/cdsite/issues). This website is based on Jekyll, and the template is modified from the [18F template](https://pages.18f.gov/guides-template/). You can find copyright and license information in the footer at the bottom of this page.
 
 If you're interested in discussing more about continuous delivery, there's an umoderated [continuous delivery mailing list](https://groups.google.com/forum/#!forum/continuousdelivery) on Google Groups.
 
@@ -21,4 +19,4 @@ I work at the University of California, Berkeley. This site is not maintained as
 
 ### A note on contacting me ###
 
-The best way to reach me is by email at humble@acm.org, but unfortunately due to the large amount of email I receive I'm afraid I can't guarantee a timely response, or indeed any response at all unless your query is short and has a simple yes/no answer. In particular, I have learned from experience not to offer advice over the internet. If you're not sure how to proceed, I have two pieces of general advice: first, work from [first principles](https://continuousdelivery.com/principles/). Second, apply the scientific method: Mike Rother's [Improvement Kata](http://www-personal.umich.edu/~mrother/Homepage.html) is an excellent resource.
+The best way to reach me is by email at humble@acm.org, but unfortunately due to the large amount of email I receive I'm afraid I can't guarantee a response. To increase your chances of a response try a query is short and has a simple yes/no answer. In particular, I have learned from experience not to offer advice over the internet. If you're not sure how to proceed, I have two pieces of general advice: first, work from [first principles](https://continuousdelivery.com/principles/). Second, apply the scientific method: Mike Rother's [Improvement Kata](http://www-personal.umich.edu/~mrother/Homepage.html) is an excellent resource.

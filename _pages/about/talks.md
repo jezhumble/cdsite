@@ -2,9 +2,7 @@
 title: Talks
 ---
 
-Here's a selection from the talks I've given over recent years, with links to video recordings and slides. All my material is licensed [Creative Commons Attribution Share-Alike](https://creativecommons.org/licenses/by-sa/3.0/us/). You can [hire me](/about/workshops) to give one of these talks at your company.
-
-In addition to my industry work, I also teach a class on lean/agile product management at UC Berkeley's <a href="https://ischool.berkeley.edu">School of Information</a>. You can find my class materials <a href="https://leanagile.pm">here</a>.
+Here's a selection from the talks I've given over recent years, with links to video recordings and slides. All my material is licensed [Creative Commons Attribution Share-Alike](https://creativecommons.org/licenses/by-sa/3.0/us/). In addition to my industry work, I also teach a class on lean/agile product management at UC Berkeley's <a href="https://ischool.berkeley.edu">School of Information</a>. You can find my class materials <a href="https://leanagile.pm">here</a>.
 
 ### Continuous Delivery Sounds Great But It Won't Work Here ###
 

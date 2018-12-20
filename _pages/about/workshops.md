@@ -2,11 +2,7 @@
 title: Workshops
 ---
 
-You can hire me to come to your company and give one of the three workshops below, or to give one or more of my [talks](/about/talks). My day rate is US$22,000 within the USA, or US$30,000 for other countries, including all expenses. If you're interested, email me at humble@acm.org.
-
-If you're interested in assessing how well your company is doing at implementing DevOps and Continuous Delivery, head over to [DevOps Research and Assessment LLC](https://devops-research.com/).
-
-In addition to my industry work, I also teach a class on lean/agile product management at UC Berkeley's <a href="https://ischool.berkeley.edu">School of Information</a>. You can find my class materials <a href="https://leanagile.pm">here</a>.
+In the past I've delivered the 1-day workshops listed on this page at various conferences. In addition to my industry work, I also teach a class on lean/agile product management at UC Berkeley's <a href="https://ischool.berkeley.edu">School of Information</a>. You can find my class materials <a href="https://leanagile.pm">here</a>.
 
 ### Foundations of DevOps and Continuous Delivery
 
