@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'ffi', '>= 1.9.24'
+gem 'jekyll', '>= 3.6.3'
 gem 'redcarpet'
 gem 'rouge'
 gem 'go_script'
