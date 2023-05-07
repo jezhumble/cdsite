@@ -39,7 +39,7 @@ and b) runs unit tests (and possibly other tasks such as static
 analysis), giving feedback to developers in the space of a few
 minutes. Packages that pass this set of tests have more comprehensive automated acceptance tests
 run against them. Once we have packages that pass all the automated
-tests, they are available for self-service deplyment to other
+tests, they are available for self-service deployment to other
 environments for activities such as exploratory testing, usability
 testing, and ultimately release. Complex products and services may
 have sophisticated deployment pipelines; a simple, linear pipeline is
