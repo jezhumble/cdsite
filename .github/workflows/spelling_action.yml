@@ -12,5 +12,4 @@ jobs:
       name: Spellcheck
       with:
         config_path: .github/config/.spellcheck.yml
-        source_files: '_pages/foundations/*.md'
         task_name: Markdown
