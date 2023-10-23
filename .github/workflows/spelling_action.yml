@@ -11,5 +11,5 @@ jobs:
     - uses: rojopolis/spellcheck-github-actions@0.34.0
       name: Spellcheck
       with:
-        source_files: _pages/foundations/test-automation.md
+        source_files: README.md
         task_name: Markdown
