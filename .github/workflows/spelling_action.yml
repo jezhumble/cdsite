@@ -12,5 +12,5 @@ jobs:
       name: Spellcheck
       with:
         config_path: .github/config/.spellcheck.yml
-        source_files: '_pages/foundations/test-automation.md'
+        source_files: '_pages/foundations/*.md'
         task_name: Markdown
