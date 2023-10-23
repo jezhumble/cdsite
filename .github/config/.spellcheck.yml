@@ -12,5 +12,5 @@ matrix:
       - code
       - pre
   sources:
-  - 'README.md'
+  - '_pages/foundations/*.md'
   default_encoding: utf-8
