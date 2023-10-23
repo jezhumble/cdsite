@@ -65,7 +65,7 @@ of our defects should be discovered through unit testing).
 
 Get started by building a skeleton deployment pipeline---create a
 single unit test, a single acceptance test, an automated deployment
-script that stands up an exploratory testing envrionment, and thread
+script that stands up an exploratory testing environment, and thread
 them together. Then increase test coverage and extend your deployment
 pipeline as your product or service evolves.
 
