@@ -12,5 +12,5 @@ matrix:
       - code
       - pre
   sources:
-  - '_pages/foundations/*.md'
+  - '_pages/foundations/test-automation.md'
   default_encoding: utf-8
