@@ -1,3 +1,5 @@
+[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
+
 # Continuous Delivery source code
 
 This is the source code for the site at http://continuousdelivery.com/
