@@ -11,7 +11,7 @@ Dave Farley is co-author of the original continuous delivery book. He has a [blo
 ### Biography ###
 
 <a href="/images/jez_new.jpg"><img src="/images/jez_new.jpg" width="120px" style="padding-right:10px;float:left;" /></a>
-Jez Humble is co-author of several books on software including Shingo Publication Award winner <a href="https://bit.ly/accelerate-jez">Accelerate</a> and Jolt Award winner <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>. He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents. He works for [Google Cloud](https://cloud.google.com/) as a technology advocate, and [teaches at UC Berkeley](http://www.ischool.berkeley.edu/people/faculty/jezhumble).
+Jez Humble is co-author of several books on software including Shingo Publication Award winner <a href="https://bit.ly/accelerate-jez">Accelerate</a> and Jolt Award winner <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>. He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents. He works for [Google Cloud](https://cloud.google.com/) as a site reliability engineer, and [teaches at UC Berkeley](http://www.ischool.berkeley.edu/people/faculty/jezhumble).
 
 ### Disclosures ###
 
