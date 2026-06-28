@@ -13,9 +13,7 @@
         <div class="wrap">
 
 
-          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>{% if site.back_link %}
-
-          <div class="back-link"><a href="{{ site.back_link.url }}">&laquo; {{ site.back_link.text }}</a></div>{% endif %}
+          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
 
 
         </div>
@@ -31,7 +29,7 @@
 
 	</section>
 
-        {% include sidebar.html %}
+        {% if page.layout == 'post' %}{% include blog-sidebar.html %}{% else %}{% include sidebar.html %}{% endif %}
 
       </div><!-- /.wrap content -->
 

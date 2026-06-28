@@ -1,46 +1,5 @@
-<!DOCTYPE html>
-<html lang='en'>
-
-  {% include header.html %}
-
-  <body>
-
-    <div class="container">
-      <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
-
-      <header role="banner">
-
-        <div class="wrap">
-
-
-          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>{% if site.back_link %}
-
-          <div class="back-link"><a href="{{ site.back_link.url }}">&laquo; {{ site.back_link.text }}</a></div>{% endif %}
-
-
-        </div>
-
-      </header>
-
-      <div class="wrap content">
-
-        <section id="main" class="main-content" role="main">
-	<h2>{{ page.title }}</h2>
-	<em>Published {{ page.date | date: '%d %B %Y' }}</em>
-	{{ content }}
-	         {% include buttons.html %}
-
-        </section>
-
-        {% include blog-sidebar.html %}
-
-      </div><!-- /.wrap content -->
-
-      {% include footer.html %}
-
-    </div> <!-- /.container -->
-
-  </body>
-{% include analytics.html %}
-{% include scripts.html %}
-</html>
+---
+layout: guides_style_cd_default
+---
+<em>Published {{ page.date | date: '%d %B %Y' }}</em>
+{{ content }}
