@@ -87,8 +87,6 @@ repos:
   description: Main repository
   url: https://github.com/jezhumble/cdsite
 
-google_analytics_ua: UA-29680385-1
-
 collections:
   pages:
     output: true

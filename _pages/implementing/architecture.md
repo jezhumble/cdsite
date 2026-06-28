@@ -20,7 +20,7 @@ Any true service-oriented architecture _should_ have these properties---but unfo
 
 ### Evolutionary architecture ###
 
-Of course, many organizations are living in a world where services are distinctly hard to test and deploy. Rather than re-architecting everything, we recommend an iterative approach to improving the design of enterprise system, sometimes known as [evolutionary architecture](http://www.ibm.com/developerworks/library/j-eaed1/). In the evolutionary architecture paradigm, we accept that [successful products and services will require re-architecting](http://www.ustream.tv/recorded/61479577) during their lifecycle due to the changing requirements placed on them.
+Of course, many organizations are living in a world where services are distinctly hard to test and deploy. Rather than re-architecting everything, we recommend an iterative approach to improving the design of enterprise system, sometimes known as [evolutionary architecture](https://web.archive.org/web/20190918152845/https://www.ibm.com/developerworks/library/j-eaed1/). In the evolutionary architecture paradigm, we accept that [successful products and services will require re-architecting](https://web.archive.org/web/20180513064111/http://www.ustream.tv/recorded/61479577) during their lifecycle due to the changing requirements placed on them.
 
 One pattern that is particularly valuable in this context is the [strangler application](http://www.martinfowler.com/bliki/StranglerApplication.html). In this pattern, we iteratively replace a monolithic architecture with a more componentized one by ensuring that new work is done following the principles of a service-oriented architecture, while accepting that the new architecture may well delegate to the system it is replacing. Over time, more and more functionality will be performed in the new architecture, and the old system being replaced is "strangled".
 
@@ -33,7 +33,7 @@ One pattern that is particularly valuable in this context is the [strangler appl
 * An episode of software engineering radio in which Rebecca Parsons discusses [evolutionary architecture](http://www.se-radio.net/2015/08/se-radio-episode-236-rebecca-parsons-on-evolutionary-architecture/).
 * Another technique for incremental architectural change while working on trunk: [branch by abstraction](/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
 * Sam Newman's canonical book on [microservices](http://www.amazon.com/dp/1491950358?tag=contindelive-20), and his 30m talk on [testing and deploying microservices](https://www.youtube.com/watch?v=FotoHYyY8Bo).
-* Randy Shoup's talk [From the Monolith to Microservices](http://www.ustream.tv/recorded/61479577) describes how companies including eBay, Google and Amazon evolved their architectures over time.
+* Randy Shoup's talk [From the Monolith to Microservices](https://web.archive.org/web/20180513064111/http://www.ustream.tv/recorded/61479577) describes how companies including eBay, Google and Amazon evolved their architectures over time.
 
 ### FAQ ###
 

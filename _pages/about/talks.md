@@ -56,7 +56,7 @@ For many years software engineering meant delivering software the way we constru
 
 ### Lean Enterprise ###
 
-[slides](https://speakerdeck.com/jezhumble/lean-enterprise) &#124; [video](https://yow.eventer.com/yow-2014-1222/the-lean-enterprise-by-jez-humble-1696) (50m) &#124; [video](http://yow.eventer.com/events/1004/talks/1062) (1h40m with [Gary Gruver](http://practicallargescaleagile.com/))
+[slides](https://speakerdeck.com/jezhumble/lean-enterprise) &#124; [video](https://yow.eventer.com/yow-2014-1222/the-lean-enterprise-by-jez-humble-1696) (50m) &#124; [video](http://yow.eventer.com/events/1004/talks/1062) (1h40m with [Gary Gruver](https://garygruver.com/))
 
 Large organizations often struggle to leverage software to create innovative products. This is due to a number of organizational factors, including culture, governance and financial management, and the application of portfolio and program management strategies that do not take advantage of the unique characteristics of software. This talk discusses how to take a lean approach to developing new products and running large scale programs of work, and how to grow a culture that enables organizations to turn software into a competitive advantage.
 
@@ -76,6 +76,6 @@ Creating automated end-to-end functional acceptance tests is hard. Maintaining t
 
 ### Stop Hiring Devops Experts (And Start Growing Them) ###
 
-[slides](https://speakerdeck.com/jezhumble/stop-hiring-devops-experts-and-start-growing-them) &#124; [video](http://puppetlabs.com/presentations/keynote-stop-hiring-devops-experts-and-start-growing-them) (30m)
+[slides](https://speakerdeck.com/jezhumble/stop-hiring-devops-experts-and-start-growing-them)
 
 Everyone is putting “devops” on their LinkedIn profile, and everyone is trying to hire them. In this talk, Jez will argue this is not a recruitment problem but an organizations failure. This talk discusses how to grow great people and great organizations, and how the two problems are connected.
