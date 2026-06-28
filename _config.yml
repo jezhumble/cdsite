@@ -1,4 +1,6 @@
 markdown: kramdown
+kramdown:
+  input: GFM
 name: Continuous Delivery
 exclude:
 - CONTRIBUTING.md
