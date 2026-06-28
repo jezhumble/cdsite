@@ -11,11 +11,11 @@ Dave Farley is co-author of the original continuous delivery book. He has a [blo
 ### Biography ###
 
 <a href="/images/jez_new.jpg"><img src="/images/jez_new.jpg" width="120px" style="padding-right:10px;float:left;" /></a>
-Jez Humble is co-author of several books on software including Shingo Publication Award winner <a href="https://bit.ly/accelerate-jez">Accelerate</a> and Jolt Award winner <a href="http://www.amazon.com/dp/0321601912?tag=contindelive-20">Continuous Delivery</a>. He has spent his career tinkering with code, infrastructure, and product development in companies of varying sizes across three continents. He works for [Google Cloud](https://cloud.google.com/) as a site reliability engineer, and [teaches at UC Berkeley](http://www.ischool.berkeley.edu/people/faculty/jezhumble).
+Jez Humble is co-author of several books on software: Jolt Award winner Continuous Delivery, Lean Enterprise, The DevOps Handbook, and Shingo Publication Award winner Accelerate. He has spent his career working on code, infrastructure, and product development in companies of varying sizes across three continents, from startups to the US Federal Government, and taught classes in software engineering and product development at UC Berkeley. He was co-founder and CTO of DORA (DevOps Research and Assessment), which was acquired by Google in 2018. He currently serves as a member of technical staff at Anthropic.
 
 ### Disclosures ###
 
-I work at Google and the University of California, Berkeley. This site is not maintained as part of my official work duties, and is not endorsed by either Google or UC Berkeley. In addition to my compensation, I receive royalties from my books and related content. If you buy my stuff via the links on this site, I get a cut from the vendor, whether Amazon or InformIT. All my investments are in wide-ranging mutual funds.
+I work at Anthropic. This site is not maintained as part of my official work duties, and is not endorsed by my employer. In addition to my compensation, I receive royalties from my books and related content. If you buy my stuff via the links on this site, I get a cut from the vendor, whether Bookshop.org or O'Reilly. All my investments are in wide-ranging mutual funds.
 
 ### A note on contacting me ###
 
